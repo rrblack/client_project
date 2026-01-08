@@ -12,7 +12,7 @@ export default function Home() {
             <h1 className="border-red-700 mt-144 absolute text-5xl md:text-7xl font-bold mb-6 text-white text-shadow-amber-100 bg-clip-text" style={{ textShadow: '1px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 2px 0 #000' }}>
             あなたの夢を実現する場所
           </h1>
-          <h2 className="mt-180 mx-25 absolute text-5xl md:text-4xl font-bold mb-6 text-white to-blue-500 bg-clip-text w-full" style={{ textShadow: '0px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 2px 0 #000' }}>
+          <h2 className="mt-180 mx-25 absolute text-5xl md:text-4xl font-bold mb-6 text-whit w-full" style={{ textShadow: '0px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 2px 0 #000' }}>
             プロのライブ配信者として、新しいキャリアをスタートしませんか？
           </h2>
            <img className="w-full h-full x-auto object-cover rounded-4xl" src="/S__8011843.jpg" alt="" /> 
@@ -46,14 +46,23 @@ export default function Home() {
 
       {/* 所属ライバー */}
       <section className="py-20 px-6 bg-white">
-        <div className='grid-cols-3 justify-items-center'> 
-          <div className='text-4xl text-orange-500 font-bold'>
+        <h2 className='text-4xl text-orange-500 font-bold text-center'>
                 所属ライバー 
-            <div className='container'>
-              
+                </h2>
+        <div className='grid grid-cols-3 justify-items-center'> 
+            <div className='container mx-auto text-center mt-5'>
+              <img className="w-125 h-125 mx-auto object-cover rounded-full" src="/S__8011784.jpg" alt="Yukina" />
+              <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>Yukina</span>
+              <span className='block text-red-300 text-2xl mt-5'>
+              <p> ゆきなさんは能力的な人であり、インスタでも凄く人気です。フォロワーが５万人以上あります。<br></br>ゆきなさんの趣味はカラオケ、猫遊び、そして寝ることです。</p></span>
+            </div>
+            <div className='container mx-auto text-center mt-5'>
+              <img className="w-125 h-125 mx-auto object-cover rounded-full" src="/S__8011784.jpg" alt="Yukina" />
+              <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>Yukina</span>
+              <span className='block text-red-300 text-2xl mt-5'>
+              <p> ゆきなさんは能力的な人であり、インスタでも凄く人気です。フォロワーが５万人以上あります。<br></br>ゆきなさんの趣味はカラオケ、猫遊び、そして寝ることです。</p></span>
             </div>
           </div>
-        </div>
       </section>
 
       {/* Features */}
