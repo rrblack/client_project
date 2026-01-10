@@ -28,7 +28,7 @@ export default function Recruit() {
                         </label>
                         <input required type="number" className=" outline outline-2 outline-black w-50 pl-3">
                         </input>
-                        <button className="rounded-2xl bg-red-500 text-xl mt-10 px-6 py-2 w-auto cursor-pointer justify-self-center   ">
+                        <button className="rounded-2xl bg-red-500 text-xl mt-10 px-6 py-2 w-auto cursor-pointer justify-self-center    ">
                             送信
                         </button>   
                     </form>

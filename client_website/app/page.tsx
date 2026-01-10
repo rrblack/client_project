@@ -31,38 +31,45 @@ export default function Home() {
       <section className="py-20 px-6 bg-white">
         <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl font-bold mb-6">Moasobi Projectとは？</h2>
-            <p className="text-gray-600 mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <h2 className="text-4xl font-bold mb-6 text-black">Moasobi Projectとは？</h2>
+            <p className="text-black mb-4 text-lg">
+             Moasobi Projectは、ライブ配信という文化が生まれた時から、配信者に寄り添いプロデュース・マネジメントを行ってきました。
             </p>
-            <p className="text-gray-600">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            <p className="text-black text-lg">
+              ライブ配信という枠を飛び越え、配信者の夢を形にしてきた実績があります。KDDI主催の大型オーディションの運営事務局を担当するなど、外部とのコネクションが豊富です。
             </p>
           </div>
-          <div className="h-96 bg-gradient-to-br from-pink-200 to-purple-200 rounded-2xl"></div>
+          <img className="w-full h-full x-auto object-cover rounded-4xl " src="/7.jpg" alt="" />
         </div>
       </section>
 
       {/* 所属ライバー */}
       <section className="py-20 px-6 bg-white">
-        <h2 className='text-4xl text-orange-500 font-bold text-center'>
+        <h2 className='text-5xl text-orange-500 font-bold text-center mb-10'>
                 所属ライバー 
                 </h2>
-        <div className='grid grid-cols-3 justify-items-center gap-10 '> 
-            <div className='container mx-auto text-center mt-5'>
-              <img className="w-125 h-125 mx-auto object-cover rounded-full" src="/S__8011784.jpg" alt="Yukina" />
-              <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>Yukina</span>
+        <div className='grid grid-cols-3 justify-items-center gap-10'> 
+            <div className=' mx-auto text-center mt-5'>
+              <div className="w-50 h-50 mx-auto object-cover rounded-full bg-pink-500" />
+              <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>ライバーの名前</span>
               <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
-              <p> ゆきなさんは能力的な人であり、インスタでも凄く人気です。フォロワーが５万人以上あります。</p> <br></br> <p>ゆきなさんの趣味はカラオケ、猫遊び、そして寝ることです。</p>
+              <p> ○○さんは能力的な人であり、インスタでも凄く人気です。フォロワーが５万人以上あります。</p> <br></br> <p> ○○さんの趣味はカラオケ、猫遊び、そして寝ることです。</p>
               </div>
             </div>
-            <div className='container mx-auto text-center mt-5'>
+            <div className=' mx-auto text-center mt-5'>
               <img className="w-125 h-125 mx-auto object-cover rounded-full" src="/S__8011784.jpg" alt="Yukina" />
-              <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>Yukina</span>
+              <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>友紀菜</span>
               <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
               <p> ゆきなさんは能力的な人であり、インスタでも凄く人気です。フォロワーが５万人以上あります。</p><br></br><p> ゆきなさんの趣味はカラオケ、猫遊び、そして寝ることです。</p>
               </div>
             </div>
+            <div>
+              <div className="w-50 h-50 mx-auto object-cover rounded-full bg-pink-500"/>
+              <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>友紀菜</span>
+              <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
+              <p> ゆきなさんは能力的な人であり、インスタでも凄く人気です。フォロワーが５万人以上あります。</p><br></br><p> ゆきなさんの趣味はカラオケ、猫遊び、そして寝ることです。</p>
+              </div>
+           </div>
           </div>
       </section>
 
