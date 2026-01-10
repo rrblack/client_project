@@ -3,26 +3,24 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="min-h-screen select-none ">
-
+    <div className="min-h-screen select-none overflow-x-hidden">
        {/* Hero */}
-      <section className="pt-12 pb-10 px-6 min-h-screen flex items-center bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200">
+      <section className="mx-auto pt-25 pb-10 px-6 min-h-screen flex items-center bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200">
         <div className="container mx-auto text-center">
           <div className='relative'>
-            <h1 className=' mt-20 px-15 absolute text-7xl md:text-7xl font-bold  text-yellow-500'> Moasobi </h1>
             <h1 className="border-red-700 mt-144 absolute text-5xl md:text-7xl font-bold mb-6 text-white text-shadow-amber-100 bg-clip-text" style={{ textShadow: '1px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 2px 0 #000' }}>
             あなたの夢を実現する場所
           </h1>
           <h2 className="mt-180 mx-25 absolute text-5xl md:text-4xl font-bold mb-6 text-whit w-full" style={{ textShadow: '0px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 2px 0 #000' }}>
             プロのライブ配信者として、新しいキャリアをスタートしませんか？
           </h2>
-           <img className="w-full h-full x-auto object-cover rounded-4xl" src="/S__8011843.jpg" alt="" /> 
+           <img className="w-full h-full x-auto object-cover rounded-4xl " src="/S__8011843.jpg" alt="" /> 
             </div>
           <div className="flex gap-4 mt-10 justify-center text-3xl">
-            <a href="/recruit" className="px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white rounded-full font-semibold hover:shadow-lg transition">
+            <a href="/recruit" className="shadow-lg px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white rounded-full font-semibold hover:shadow-lg transition-transform hover:scale-105">
               応募する
             </a>
-            <a href="/contact" className="px-8 py-4 bg-green-400 border-2 border-green-400 rounded-full font-semibold hover:bg-green-500 transition">
+            <a href="/contact" className="shadow-lg px-8 py-4 bg-gradient-to-l from-green-500 via-green-300 to-green-500  rounded-full font-semibold hover:bg-green-500 hover:shadow-lg transition-transform hover:scale-105">
               相談する
             </a>
           </div>
@@ -50,16 +48,20 @@ export default function Home() {
         <h2 className='text-4xl text-orange-500 font-bold text-center'>
                 所属ライバー 
                 </h2>
-        <div className='grid grid-cols-3 justify-items-center'> 
+        <div className='grid grid-cols-3 justify-items-center gap-10 '> 
             <div className='container mx-auto text-center mt-5'>
               <img className="w-125 h-125 mx-auto object-cover rounded-full" src="/S__8011784.jpg" alt="Yukina" />
               <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>Yukina</span>
-              <p className='max-w-xl mx-auto text-red-300 text-2xl mt-5'> ゆきなさんは能力的な人であり、インスタでも凄く人気です。フォロワーが５万人以上あります。<br></br>ゆきなさんの趣味はカラオケ、猫遊び、そして寝ることです。</p>
+              <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
+              <p> ゆきなさんは能力的な人であり、インスタでも凄く人気です。フォロワーが５万人以上あります。</p> <br></br> <p>ゆきなさんの趣味はカラオケ、猫遊び、そして寝ることです。</p>
+              </div>
             </div>
             <div className='container mx-auto text-center mt-5'>
               <img className="w-125 h-125 mx-auto object-cover rounded-full" src="/S__8011784.jpg" alt="Yukina" />
               <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>Yukina</span>
-              <p className=' text-red-300 text-2xl mt-5  max-w-xl mx-auto'> ゆきなさんは能力的な人であり、インスタでも凄く人気です。フォロワーが５万人以上あります。<br></br>ゆきなさんの趣味はカラオケ、猫遊び、そして寝ることです。</p>
+              <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
+              <p> ゆきなさんは能力的な人であり、インスタでも凄く人気です。フォロワーが５万人以上あります。</p><br></br><p> ゆきなさんの趣味はカラオケ、猫遊び、そして寝ることです。</p>
+              </div>
             </div>
           </div>
       </section>

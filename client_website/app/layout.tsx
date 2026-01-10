@@ -27,14 +27,17 @@ export default function RootLayout({
     <html lang="en">
       {/* Header */}
       <header className="fixed w-full backdrop-blur z-1 shadow-sm">
-        <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
+        <nav className="mx-auto px-6 py-4 flex items-center justify-between">
+          <Link href="/">
+          <img src="/logo1.png" className="h-auto w-35  rounded-lg"/>
+          </Link>
           <div className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">
           </div>
-          <ul className="group hover:scale-110 transform transition-transform flex-auto justify-center md:flex gap-3 text-xl font-medium">
-            <li><Link href="/about" className=" shadow-fuchsia-800 hover:text-black bg-orange-500/85 rounded-full px-4 py-2" >会社概要</Link></li>
-            <li><Link href="/recruit" className="hover:text-black bg-orange-500/85 rounded-full px-4 py-2">ライバー募集フォーム</Link></li>
-            <li><Link href="/contact" className="hover:text-black bg-orange-500/85 rounded-full px-4 py-2">問い合わせ</Link></li>
-            <li><Link href="/privacy-policy" className="hover:text-black bg-orange-500/85 rounded-full px-4 py-2">プライバシーポリシー</Link></li>
+          <ul className="flex-auto justify-center md:flex gap-3 text-xl font-medium">
+            <li><Link href="/about" className="inline-block shadow-md hover:shadow-lg shadow-fuchsia-800 hover:scale-110 transition-transform hover:text-black bg-orange-500/85 rounded-full px-4 py-2" >会社概要</Link></li>
+            <li><Link href="/recruit" className="inline-block shadow-md hover:shadow-lg shadow-fuchsia-800 hover:scale-110 transition-transform hover:text-black bg-orange-500/85 rounded-full px-4 py-2">ライバー募集フォーム</Link></li>
+            <li><Link href="/contact" className="inline-block shadow-md hover:shadow-lg shadow-fuchsia-800 hover:scale-110 transition-transform hover:text-black bg-orange-500/85 rounded-full px-4 py-2">問い合わせ</Link></li>
+            <li><Link href="/privacy-policy" className="inline-block shadow-md hover:shadow-lg shadow-fuchsia-800 hover:scale-110 transition-transform hover:text-black bg-orange-500/85 rounded-full px-4 py-2">プライバシーポリシー</Link></li>
           </ul>
         </nav>
       </header>
@@ -48,7 +51,7 @@ export default function RootLayout({
         <div className="container mx-auto grid md:grid-cols-3 gap-8">
           <div>
             <div className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent mb-4">
-              LOGO
+            <img src="/logo1.png" className="h-auto w-35 rounded-lg "/>
             </div>
             <p className="text-sm text-gray-400">Company description goes here.</p>
           </div>
@@ -69,7 +72,7 @@ export default function RootLayout({
           </div>
         </div>
         <div className="container mx-auto mt-8 pt-8 border-t border-gray-800 text-center text-sm text-gray-400">
-          <p>© 2026 Moasobi Project. All rights reserved. <time dateTime="10" className=""></time></p>
+          <p>© 2026 株式会社モアソビ. All rights reserved. <time dateTime="10" className=""></time></p>
         </div>
       </footer>
     </html>
