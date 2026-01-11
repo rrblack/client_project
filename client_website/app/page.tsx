@@ -11,7 +11,7 @@ export default function Home() {
             <h1 className="border-red-700 mt-144 absolute text-5xl md:text-7xl font-bold mb-6 text-white text-shadow-amber-100 bg-clip-text" style={{ textShadow: '1px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 2px 0 #000' }}>
             あなたの夢を実現する場所
           </h1>
-          <h2 className="mt-180 mx-25 absolute text-5xl md:text-4xl font-bold mb-6 text-whit w-full" style={{ textShadow: '0px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 2px 0 #000' }}>
+          <h2 className="mt-180 mx-25 absolute text-5xl md:text-4xl font-bold mb-6 text-white w-full" style={{ textShadow: '0px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 1px 0 #000' }}>
             プロのライブ配信者として、新しいキャリアをスタートしませんか？
           </h2>
            <img className="w-full h-full x-auto object-cover rounded-4xl " src="/S__8011843.jpg" alt="" /> 
@@ -67,7 +67,7 @@ export default function Home() {
               <div className="w-50 h-50 mx-auto object-cover rounded-full bg-pink-500"/>
               <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>友紀菜</span>
               <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
-              <p> ゆきなさんは能力的な人であり、インスタでも凄く人気です。フォロワーが５万人以上あります。</p><br></br><p> ゆきなさんの趣味はカラオケ、猫遊び、そして寝ることです。</p>
+              <p> ○○さんは能力的な人であり、インスタでも凄く人気です。フォロワーが５万人以上あります。</p><br></br><p> ○○さんの趣味はカラオケ、猫遊び、そして寝ることです。</p>
               </div>
            </div>
           </div>
