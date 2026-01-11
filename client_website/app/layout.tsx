@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={`bg-amber-600 min-h-screen ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header className="fixed backdrop-blur z-1 shadow-sm w-full">
+        <header className="fixed backdrop-blur z-2 shadow-sm w-full">
         <nav className="mx-auto px-6 py-4 flex items-center justify-between ">
           <Link href="/">
           <img src="/logo1.png" className="h-auto w-35  rounded-lg"/>

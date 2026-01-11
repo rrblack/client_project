@@ -17,12 +17,12 @@ export default function Home() {
            <img className="w-full h-full x-auto object-cover rounded-4xl " src="/S__8011843.jpg" alt="" /> 
             </div>
           <div className="flex gap-4 md:mt-10 -mt-10 md:pb-0 pb-15 justify-center text-center text-3xl">
-            <a href="/recruit" className=" z-99 shadow-lg px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white rounded-full font-semibold hover:shadow-lg transition-transform hover:scale-105">
+            <Link href="/recruit" className=" z-1 shadow-lg px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white rounded-full font-semibold hover:shadow-lg transition-transform hover:scale-105">
               応募する
-            </a>
-            <a href="/contact" className=" z-99 shadow-lg px-8 py-4 bg-gradient-to-l from-green-500 via-green-300 to-green-500  rounded-full font-semibold hover:bg-green-500 hover:shadow-lg transition-transform hover:scale-105">
+            </Link>
+            <Link href="/contact" className=" z-1 shadow-lg px-8 py-4 bg-gradient-to-l from-green-500 via-green-300 to-green-500  rounded-full font-semibold hover:bg-green-500 hover:shadow-lg transition-transform hover:scale-105">
               相談する
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -45,7 +45,7 @@ export default function Home() {
 
       {/* 所属ライバー */}
       <section className="py-20 px-6 bg-white">
-        <h2 className='text-5xl text-orange-500 font-bold text-center mb-10'>
+        <h2 className='relative text-5xl text-orange-500 font-bold text-center mb-10 '>
                 所属ライバー 
                 </h2>
         <div className='grid md:grid-cols-3 justify-items-center gap-10'> 
@@ -58,14 +58,14 @@ export default function Home() {
             </div>
             <div className=' mx-auto text-center mt-5'>
               <img className="w-125 h-125 mx-auto object-cover rounded-full" src="/S__8011784.jpg" alt="Yukina" />
-              <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>友紀菜</span>
+              <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>ゆきな</span>
               <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
               <p> ゆきなさんは能力的な人であり、インスタでも凄く人気です。フォロワーが５万人以上あります。</p><br></br><p> ゆきなさんの趣味はカラオケ、猫遊び、そして寝ることです。</p>
               </div>
             </div>
             <div>
               <div className="w-50 h-50 mx-auto object-cover rounded-full bg-pink-500"/>
-              <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>友紀菜</span>
+              <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>ライバーの名前</span>
               <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
               <p> ○○さんは能力的な人であり、インスタでも凄く人気です。フォロワーが５万人以上あります。</p><br></br><p> ○○さんの趣味はカラオケ、猫遊び、そして寝ることです。</p>
               </div>
