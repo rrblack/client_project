@@ -5,22 +5,22 @@ export default function Home() {
   return (
     <div className="min-h-screen select-none overflow-x-hidden">
        {/* Hero */}
-      <section className="mx-auto pt-25 pb-10 px-6 min-h-screen flex items-center bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200">
-        <div className="container mx-auto text-center">
-          <div className='relative'>
-            <h1 className="border-red-700 mt-144 absolute text-5xl md:text-7xl font-bold mb-6 text-white text-shadow-amber-100 bg-clip-text" style={{ textShadow: '1px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 2px 0 #000' }}>
+      <section className="mx-auto md:pt-25 md:pb-10 md:px-6 md:min-h-screen md:flex md:items-center bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200">
+        <div className="md:container md:mx-auto md:text-center ">
+          <div className='relative md:py-0 py-25 '>
+            <h1 data-aos="fade-right" className="border-red-700 md:mt-124 md:mt-30 mt-25 mx-10 absolute text-4xl md:text-7xl font-bold  text-white text-shadow-amber-100 bg-clip-text" style={{ textShadow: '1px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 2px 0 #000' }}>
             あなたの夢を実現する場所
           </h1>
-          <h2 className="mt-180 mx-25 absolute text-5xl md:text-4xl font-bold mb-6 text-white w-full" style={{ textShadow: '0px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 1px 0 #000' }}>
+          <h2 data-aos="fade-right" className="md:mt-155 mt-49 md:mx-15 mx-3 md:mb-6 absolute text-xl md:text-4xl font-bold  text-white w-full" style={{ textShadow: '0px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 1px 0 #000' }}>
             プロのライブ配信者として、新しいキャリアをスタートしませんか？
           </h2>
            <img className="w-full h-full x-auto object-cover rounded-4xl " src="/S__8011843.jpg" alt="" /> 
             </div>
-          <div className="flex gap-4 mt-10 justify-center text-3xl">
-            <a href="/recruit" className="shadow-lg px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white rounded-full font-semibold hover:shadow-lg transition-transform hover:scale-105">
+          <div className="flex gap-4 md:mt-10 -mt-10 md:pb-0 pb-15 justify-center text-center text-3xl">
+            <a href="/recruit" className=" z-99 shadow-lg px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white rounded-full font-semibold hover:shadow-lg transition-transform hover:scale-105">
               応募する
             </a>
-            <a href="/contact" className="shadow-lg px-8 py-4 bg-gradient-to-l from-green-500 via-green-300 to-green-500  rounded-full font-semibold hover:bg-green-500 hover:shadow-lg transition-transform hover:scale-105">
+            <a href="/contact" className=" z-99 shadow-lg px-8 py-4 bg-gradient-to-l from-green-500 via-green-300 to-green-500  rounded-full font-semibold hover:bg-green-500 hover:shadow-lg transition-transform hover:scale-105">
               相談する
             </a>
           </div>
@@ -48,7 +48,7 @@ export default function Home() {
         <h2 className='text-5xl text-orange-500 font-bold text-center mb-10'>
                 所属ライバー 
                 </h2>
-        <div className='grid grid-cols-3 justify-items-center gap-10'> 
+        <div className='grid md:grid-cols-3 justify-items-center gap-10'> 
             <div className=' mx-auto text-center mt-5'>
               <div className="w-50 h-50 mx-auto object-cover rounded-full bg-pink-500" />
               <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>ライバーの名前</span>

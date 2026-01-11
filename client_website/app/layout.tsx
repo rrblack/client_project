@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import AOSProvider from "./components/Aos";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,14 +27,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       {/* Header */}
-      <header className="fixed w-full backdrop-blur z-1 shadow-sm">
-        <nav className="mx-auto px-6 py-4 flex items-center justify-between">
+      <body
+        className={`bg-amber-600 min-h-screen ${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        <header className="fixed backdrop-blur z-1 shadow-sm w-full">
+        <nav className="mx-auto px-6 py-4 flex items-center justify-between ">
           <Link href="/">
           <img src="/logo1.png" className="h-auto w-35  rounded-lg"/>
           </Link>
           <div className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">
           </div>
-          <ul className="flex-auto justify-center md:flex gap-3 text-xl font-medium">
+          <ul className="hidden md:flex md:flex-auto gap-3 text-xl font-medium px-34">
             <li><Link href="/about" className="inline-block shadow-md hover:shadow-lg shadow-fuchsia-800 hover:scale-110 transition-transform hover:text-black bg-orange-500/85 rounded-full px-4 py-2" >会社概要</Link></li>
             <li><Link href="/recruit" className="inline-block shadow-md hover:shadow-lg shadow-fuchsia-800 hover:scale-110 transition-transform hover:text-black bg-orange-500/85 rounded-full px-4 py-2">ライバー募集フォーム</Link></li>
             <li><Link href="/contact" className="inline-block shadow-md hover:shadow-lg shadow-fuchsia-800 hover:scale-110 transition-transform hover:text-black bg-orange-500/85 rounded-full px-4 py-2">問い合わせ</Link></li>
@@ -41,12 +45,10 @@ export default function RootLayout({
           </ul>
         </nav>
       </header>
-      <body
-        className={`bg-amber-600 min-h-screen ${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+        <AOSProvider>
         {children}
-      </body>
-      {/* Footer */}
+        </AOSProvider>
+        {/* Footer */}
       <footer className="bg-gray-900 text-white py-12 px-6">
         <div className="container mx-auto grid md:grid-cols-3 gap-8">
           <div>
@@ -75,6 +77,7 @@ export default function RootLayout({
           <p>© 2026 株式会社モアソビ. All rights reserved. <time dateTime="10" className=""></time></p>
         </div>
       </footer>
+      </body>
     </html>
   );
 }

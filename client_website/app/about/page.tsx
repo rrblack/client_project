@@ -8,7 +8,7 @@ export default function About() {
             <div className="flex flex-col items-center justify-center mx-auto mt-24">
             <img src="/logo1.png" className="h-auto w-90 rounded-lg"/>
             <div className="text-black">
-                <h1 className="text-5xl mb-10 m-10 font-semibold text-center" > 会社概要  </h1>
+                <h1 className="text-4xl mb-10 m-10 font-semibold text-center" > 会社概要  </h1>
                 <table className="grid grid-cols-1 gap-5 ">
                     <tr className="grid grid-cols-2">
                         <th>会社名</th>
