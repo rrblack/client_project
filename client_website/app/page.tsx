@@ -9,10 +9,11 @@ export default function Home() {
         <img className="absolute w-full h-full x-auto object-cover rounded-sm" src="/S__8011843.jpg" alt="" /> 
         <div className="md:container md:mx-auto md:text-center ">
           <div className='relative md:py-0 py-25 '>
-            <h1 data-aos="fade-right" className="border-red-700 md:mt-40  mt-25 mx-10 absolute text-4xl md:text-7xl font-bold  text-white text-shadow-amber-100 bg-clip-text" style={{ textShadow: '1px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 2px 0 #000' }}>
+            <h1 data-aos="fade-right" data-aos-duration="3000" className="border-red-700 md:mt-40  mt-25 mx-10 absolute text-4xl md:text-7xl font-bold  text-white text-shadow-amber-100 bg-clip-text" style={{ textShadow: '1px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 2px 0 #000' }}>
             あなたの夢を実現する場所
           </h1>
-          <h2 data-aos="fade-right" className="mt-49 md:mt-80 md:mx-0 mx-3 md:mb-6 absolute text-xl md:text-4xl font-bold  text-white w-full" style={{ textShadow: '0px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 1px 0 #000' }}>
+          <h2 data-aos="fade-right" data-aos-duration="3000" data-aos-delay="3000" data-aos-anchor-placement="top-bottom"
+          className="mt-49 md:mt-80 md:mx-0 mx-3 md:mb-6 absolute text-xl md:text-4xl font-bold  text-white w-full" style={{ textShadow: '0px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 1px 0 #000' }}>
             プロのライブ配信者として、新しいキャリアをスタートしませんか？
           </h2>
             </div>
