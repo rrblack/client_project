@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import AOSProvider from "./components/Aos";
+import HamburgerMenu from "./components/hamburger";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,6 +33,9 @@ export default function RootLayout({
       >
         <header className="fixed backdrop-blur z-2 shadow-sm w-full">
         <nav className="mx-auto px-6 py-4 flex items-center justify-between ">
+          <div className=" absolute right-4 ">
+          <HamburgerMenu/>
+          </div>
           <Link href="/">
           <img src="/logo1.png" className="h-auto w-35  rounded-lg"/>
           </Link>
@@ -39,7 +43,7 @@ export default function RootLayout({
           </div>
           <ul className="hidden md:flex md:flex-auto gap-3 text-xl font-medium px-34">
             <li><Link href="/about" className="inline-block shadow-md hover:shadow-lg shadow-fuchsia-800 hover:scale-110 transition-transform hover:text-black bg-orange-500/85 rounded-full px-4 py-2" >会社概要</Link></li>
-            <li><Link href="/recruit" className="inline-block shadow-md hover:shadow-lg shadow-fuchsia-800 hover:scale-110 transition-transform hover:text-black bg-orange-500/85 rounded-full px-4 py-2">ライバー募集フォーム</Link></li>
+            <li><Link href="/recruit" className="inline-block shadow-md hover:shadow-lg shadow-fuchsia-800 hover:scale-110 transition-transform hover:text-black bg-orange-500/85 rounded-full px-4 py-2">ライバー応募フォーム</Link></li>
             <li><Link href="/contact" className="inline-block shadow-md hover:shadow-lg shadow-fuchsia-800 hover:scale-110 transition-transform hover:text-black bg-orange-500/85 rounded-full px-4 py-2">問い合わせ</Link></li>
             <li><Link href="/privacy-policy" className="inline-block shadow-md hover:shadow-lg shadow-fuchsia-800 hover:scale-110 transition-transform hover:text-black bg-orange-500/85 rounded-full px-4 py-2">プライバシーポリシー</Link></li>
           </ul>
