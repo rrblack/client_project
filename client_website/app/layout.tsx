@@ -4,6 +4,7 @@ import "./globals.css";
 import Link from "next/link";
 import AOSProvider from "./components/Aos";
 import HamburgerMenu from "./components/hamburger";
+import Banner from "./components/banner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,24 +32,23 @@ export default function RootLayout({
       <body
         className={`bg-amber-600 min-h-screen ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header className="fixed backdrop-blur z-2 shadow-sm w-full">
-        <nav className="mx-auto px-6 py-4 flex items-center justify-between ">
-          <div className=" absolute right-4 ">
-          <HamburgerMenu/>
-          </div>
-          <Link href="/">
-          <img src="/logo1.png" className="h-auto w-35  rounded-lg"/>
+        <header className="fixed backdrop-blur z-99 shadow-sm w-full">
+        <nav className="mx-auto md:px-6 md:py-4 p-8 flex items-center justify-center gap-8 ">
+          <Link href="/" className="absolute left-6">
+          <img src="/logo1.png" className="h-auto w-35 rounded-lg "/>
           </Link>
-          <div className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">
-          </div>
-          <ul className="hidden md:flex md:flex-auto gap-3 text-xl font-medium px-34">
+          <ul className="hidden md:flex gap-3 text-xl font-medium ">
             <li><Link href="/about" className="inline-block shadow-md hover:shadow-lg shadow-fuchsia-800 hover:scale-110 transition-transform hover:text-black bg-orange-500/85 rounded-full px-4 py-2" >会社概要</Link></li>
             <li><Link href="/recruit" className="inline-block shadow-md hover:shadow-lg shadow-fuchsia-800 hover:scale-110 transition-transform hover:text-black bg-orange-500/85 rounded-full px-4 py-2">ライバー応募フォーム</Link></li>
             <li><Link href="/contact" className="inline-block shadow-md hover:shadow-lg shadow-fuchsia-800 hover:scale-110 transition-transform hover:text-black bg-orange-500/85 rounded-full px-4 py-2">問い合わせ</Link></li>
             <li><Link href="/privacy-policy" className="inline-block shadow-md hover:shadow-lg shadow-fuchsia-800 hover:scale-110 transition-transform hover:text-black bg-orange-500/85 rounded-full px-4 py-2">プライバシーポリシー</Link></li>
           </ul>
+          <div className=" absolute right-6 ">
+          <HamburgerMenu/>
+          </div>
         </nav>
       </header>
+        <Banner/>
         <AOSProvider>
         {children}
         </AOSProvider>
