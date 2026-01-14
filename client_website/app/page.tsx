@@ -9,14 +9,17 @@ export default function Home() {
         <img className="absolute w-full h-full mx-auto object-cover rounded-sm" src="/S__8011843.jpg" alt="" /> 
         <div className="md:container md:mx-auto md:text-center ">
           <div className='relative md:py-0 py-25 '>
-            <h1 data-aos="fade-right" data-aos-duration="3000" className="border-red-700 md:mt-40  z-11 mt-25 mx-10 absolute text-5xl md:text-7xl font-bold  text-white text-shadow-amber-100 bg-clip-text" style={{ textShadow: '1px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 2px 0 #000' }}>
+            <h1 data-aos="fade-right" data-aos-duration="3000" className="border-red-700 md:mt-40  
+            z-11 mt-25 mx-10 absolute text-5xl md:text-7xl font-bold  
+            text-white text-shadow-amber-100 bg-clip-text" style={{ textShadow: '1px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 2px 0 #000' }}>
            あなたの夢を実現する場所 </h1>
            <div data-aos="fade-right" data-aos-duration="3000" className='absolute lg:h-10 lg:w-200 lg:mt-50 lg:mx-12 z-10 bg-yellow-300'></div>
-           <div data-aos="fade-right" data-aos-duration="3000" data-aos-delay="3000" data-aos-anchor-placement="top-bottom" className='absolute lg:h-5 lg:w-265 lg:mt-85 lg:mx-20 bg-yellow-300'></div>
           <h2 data-aos="fade-right" data-aos-duration="3000" data-aos-delay="3000" data-aos-anchor-placement="top-bottom"
-          className=" z-11 mt-59 md:mt-80 md:mx-0 mx-2 md:px-10 px-10 md:mb-6 absolute text-3xl md:text-4xl font-bold  text-white w-full " style={{ textShadow: '0px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 1px 0 #000' }}>
+          className=" z-11 mt-59 md:mt-80 md:mx-0 mx-2 md:px-10 px-10 md:mb-6
+           absolute text-3xl md:text-4xl font-bold  text-white w-full " style={{ textShadow: '0px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 1px 0 #000' }}>
             プロのライブ配信者として、新しいキャリアをスタートしませんか？
           </h2>
+          <div data-aos="fade-right" data-aos-duration="3000" data-aos-delay="3000" data-aos-anchor-placement="top-bottom" className='absolute lg:h-5 lg:w-265 lg:mt-85 sm:mx-20 xl:mx-50 bg-yellow-300'></div>
             </div>
           <div className="flex gap-4 md:mt-125 mt-80 md:pb-0 pb-15 justify-center text-center text-3xl">
             <Link href="/recruit" className=" z-1 shadow-lg px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white rounded-full font-semibold hover:shadow-lg transition-transform hover:scale-105">
@@ -134,27 +137,27 @@ export default function Home() {
         <div className="container mx-auto max-w-3xl">
           <h2 className="text-4xl text-black font-bold text-center mb-12">Q&A</h2>
           <div className="space-y-4 text-black">
-              <details className="bg-gray-50 rounded-lg p-6">
+              <details data-aos="fade-right" className="bg-gray-50 rounded-lg p-6">
                 <summary className="font-semibold cursor-pointer">ライバーって何をするんですか？</summary>
                 <p className="mt-4 text-gray-600">ライブ配信アプリで生配信を行います。自分の趣味や今日のできごとなど、簡単な雑談からスタートできます。特別なスキルは必要ありません。</p>
               </details>
-              <details className="bg-gray-50 rounded-lg p-6">
+              <details data-aos="fade-right" className="bg-gray-50 rounded-lg p-6">
                 <summary className="font-semibold cursor-pointer">配信未経験ですが大丈夫ですか？</summary>
                 <p className="mt-4 text-gray-600">全く問題ありません！アプリの使い方、配信の始め方などゼロからサポートします。現在所属しているライバーさんも、配信未経験の方がほとんどです。</p>
               </details>
-              <details className="bg-gray-50 rounded-lg p-6">
+              <details data-aos="fade-right" className="bg-gray-50 rounded-lg p-6">
                 <summary className="font-semibold cursor-pointer">所属するのにお金はかかりますか？</summary>
                 <p className="mt-4 text-gray-600">一切かかりません。入会金やレッスン料、罰金などこちらからお金を請求することは一切ございませんのでご安心ください。完全無料でサポートします。</p>
               </details>
-              <details className="bg-gray-50 rounded-lg p-6">
+              <details data-aos="fade-right" className="bg-gray-50 rounded-lg p-6">
                 <summary className="font-semibold cursor-pointer">どのくらい稼げますか？</summary>
                 <p className="mt-4 text-gray-600">配信アプリや活動頻度によって異なりますが、アルバイト代わりに月数万円稼ぐ方から専業ライバーとして月収100万円を超えている方も多くいらっしゃいます。</p>
               </details>
-              <details className="bg-gray-50 rounded-lg p-6">
+              <details data-aos="fade-right" className="bg-gray-50 rounded-lg p-6">
                 <summary className="font-semibold cursor-pointer">顔出ししなくても大丈夫ですか？</summary>
                 <p className="mt-4 text-gray-600">顔出し不要の配信アプリもご紹介可能です。希望の配信内容、頻度、目指す将来に合わせて最適なアプリをご紹介いたします。</p>
               </details>
-              <details className="bg-gray-50 rounded-lg p-6">
+              <details data-aos="fade-right" className="bg-gray-50 rounded-lg p-6">
                 <summary className="font-semibold cursor-pointer">他の仕事との掛け持ちはできますか？</summary>
                 <p className="mt-4 text-gray-600">可能です。学業や本業と両立しながら活動されている方も多数いらっしゃいます。あなたのライフスタイルに合わせた活動をサポートします。</p>
               </details>
