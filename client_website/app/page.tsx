@@ -49,7 +49,7 @@ export default function Home() {
       </section>
 
         {/* メリット */}
-      <section className='p-10 min-h-screen bg-white '>
+      <section className='p-10 bg-white '>
         <h1 data-aos="fade-up" data-aos-duration="3000" className='text-5xl text-black font-semibold text-center'>Moasobi Projectのメリット</h1>
         <div className='container mx-auto grid md:grid-cols-3 p-4 items-start gap-12 my-12 '>
           <div className='p-10'>
