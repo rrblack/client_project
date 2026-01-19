@@ -59,7 +59,7 @@ export default function RootLayout({
             <div className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent mb-4">
             <img src="/logo1.png" className="h-auto w-35 rounded-lg "/>
             </div>
-            <p className="text-sm text-gray-400">Company description goes here.</p>
+            <p className="text-sm text-gray-400">BIGO LIVE 公式パートナー事務所</p>
           </div>
           <div>
             <h3 className="font-semibold mb-4">Links</h3>
@@ -77,8 +77,8 @@ export default function RootLayout({
             </div>
           </div>
         </div>
-        <div className="container mx-auto mt-8 pt-8 border-t border-gray-800 text-center text-sm text-gray-400">
-          <p>© 2026 株式会社モアソビ. All rights reserved. <time dateTime="10" className=""></time></p>
+        <div className="container mx-auto mt-3 pt-3 border-t border-gray-800 text-center text-sm text-gray-400">
+          <p>© {new Date().getFullYear()} 株式会社モアソビ. All rights reserved. </p>
         </div>
       </footer>
       </body>

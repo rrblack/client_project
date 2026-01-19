@@ -142,20 +142,20 @@ export default function Home() {
                 <p className="mt-4 text-gray-600">ライブ配信アプリで生配信を行います。自分の趣味や今日のできごとなど、簡単な雑談からスタートできます。特別なスキルは必要ありません。</p>
               </details>
               <details data-aos="fade-right" className="bg-gray-50 rounded-lg p-6">
-                <summary className="font-semibold cursor-pointer">配信未経験ですが大丈夫ですか？</summary>
-                <p className="mt-4 text-gray-600">全く問題ありません！アプリの使い方、配信の始め方などゼロからサポートします。現在所属しているライバーさんも、配信未経験の方がほとんどです。</p>
+                <summary className="font-semibold cursor-pointer">本当に未経験でも大丈夫？</summary>
+                <p className="mt-4 text-gray-600">はい。ほとんどの方が未経験からのスタートです。</p>
               </details>
               <details data-aos="fade-right" className="bg-gray-50 rounded-lg p-6">
-                <summary className="font-semibold cursor-pointer">所属するのにお金はかかりますか？</summary>
-                <p className="mt-4 text-gray-600">一切かかりません。入会金やレッスン料、罰金などこちらからお金を請求することは一切ございませんのでご安心ください。完全無料でサポートします。</p>
+                <summary className="font-semibold cursor-pointer">顔出しは必要？</summary>
+                <p className="mt-4 text-gray-600">必要ではありません。あなたに合った形を提案します。</p>
               </details>
               <details data-aos="fade-right" className="bg-gray-50 rounded-lg p-6">
-                <summary className="font-semibold cursor-pointer">どのくらい稼げますか？</summary>
-                <p className="mt-4 text-gray-600">配信アプリや活動頻度によって異なりますが、アルバイト代わりに月数万円稼ぐ方から専業ライバーとして月収100万円を超えている方も多くいらっしゃいます。</p>
+                <summary className="font-semibold cursor-pointer">費用はかかりますか？</summary>
+                <p className="mt-4 text-gray-600">登録・サポートはすべて無料です。</p>
               </details>
               <details data-aos="fade-right" className="bg-gray-50 rounded-lg p-6">
-                <summary className="font-semibold cursor-pointer">顔出ししなくても大丈夫ですか？</summary>
-                <p className="mt-4 text-gray-600">顔出し不要の配信アプリもご紹介可能です。希望の配信内容、頻度、目指す将来に合わせて最適なアプリをご紹介いたします。</p>
+                <summary className="font-semibold cursor-pointer">配信時間の決まりは？</summary>
+                <p className="mt-4 text-gray-600">無理のない範囲で相談しながら決められます。</p>
               </details>
               <details data-aos="fade-right" className="bg-gray-50 rounded-lg p-6">
                 <summary className="font-semibold cursor-pointer">他の仕事との掛け持ちはできますか？</summary>
