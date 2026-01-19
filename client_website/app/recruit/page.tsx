@@ -1,6 +1,48 @@
+"use client";
 
+import { useState, FormEvent } from "react";
 
 export default function Recruit() {
+    const[formData, setFormData] = useState({
+        name:'',
+        age:'',
+        email:'',
+        phone_number:'',
+        job:'',
+        message:''
+    });
+    const[status, setStatus] = useState<'success' | 'idle' | 'loading' | 'error' >('idle');
+    const[errorMessage, setErrorMessage] = useState('');
+
+    const handleSubmit = async (e:FormEvent) => {
+        e.preventDefault();
+        setStatus('loading');
+        setErrorMessage('');
+        
+        try {
+            const response = await fetch('https://moapro.jp/recruit.php', {
+                method:'POST',
+                headers:{
+                    'ContentType': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            });
+            const data = await response.json();
+
+            if(response.ok && data.success) {
+                setStatus('success');
+                setFormData({name:'',age:'',email:'',phone_number:'',job:'',message:''});
+            } else{
+                setStatus('error')
+                setErrorMessage(data.error || 'Something went wrong');
+            } 
+            } catch(error){
+                setStatus('error');
+                setErrorMessage('Network error. Please try again.');
+        }
+    };
+
+
 
     return(
         <section className="mx-auto  min-h-screen flex items-center bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200 overflow-x-hidden">
