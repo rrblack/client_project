@@ -1,11 +1,13 @@
 // app/page.tsx
 import Link from 'next/link'
+import Banner from './components/banner'
 
 export default function Home() {
   return (
     <div className="min-h-screen select-none ">
+  <Banner/>
        {/* Hero */}
-      <section className="mx-auto  md:min-h-screen md:flex md:items-center bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200 overflow-x-hidden md:pt-38  ">
+      <section className="relative mx-auto min-h-screen md:flex md:items-center bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200 overflow-hidden md:pt-38  ">
         <img className="absolute w-full h-full mx-auto object-cover rounded-sm" src="/S__8011843.jpg" alt="" /> 
         <div className="md:container md:mx-auto md:text-center ">
           <div className='relative md:py-0 py-25 '>
@@ -33,7 +35,7 @@ export default function Home() {
       </section>
 
       {/* About */}
-      <section className="py-35 px-6 bg-white ">
+      <section className="py-12 px-6 bg-white ">
         <div data-aos="fade-up" data-aos-duration="3000" className="container mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-bold mb-6 text-black">Moasobi Projectとは？</h2>

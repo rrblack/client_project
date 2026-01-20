@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState, FormEvent } from "react";
@@ -18,12 +17,12 @@ export default function Contact() {
         setErrorMessage('');
         
         try {
-        const response = await fetch('https://moapro.jp/contact.php', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(formData),
+            const response = await fetch('https://moapro.jp/contact.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
         });
 
         const data = await response.json();
@@ -33,11 +32,11 @@ export default function Contact() {
             setFormData({name:'', email: '', message:''});
         } else {
             setStatus('error');
-            setErrorMessage(data.error || 'Something went wrong');
+            setErrorMessage(data.error || 'エラーが発生しました。');
         }
         } catch (error) {
             setStatus('error');
-            setErrorMessage('Network error. Please try again.');
+            setErrorMessage('通信エラー。 もう一度試してください。');
         }
     };
 
@@ -58,12 +57,13 @@ export default function Contact() {
             className=" text-lg bg-white text-black border-2  border-orange-400 pl-2" />
             <button className="cursor-pointer border rounded-2xl border-red-500 bg-rose-500 justify-self-center mt-10 px-6 py-2 w-auto" 
             > 
-            送信</button>
+            
+            {status === 'loading' ? '...' : '送信'} </button>
             {status === "success" && (
                 <div className="p-4 rounded-lg bg-green-500 border-2 border-green-500 text-white text-lg"> ご連絡ありがとうございます。2日以内に返事いたします。</div>
             ) }
             {status === "error" && (
-                <div className="p-4 rounded-lg bg-red-500 border-2 border-red-500 text-white text-lg"> 申し訳ございません。送信できませんでした。もう一度試してください</div>
+                <div className="p-4 rounded-lg bg-red-500 border-2 border-red-500 text-white text-lg"> 申し訳ございません。送信できませんでした。{errorMessage} </div>
             )}
         </div>
         </form>

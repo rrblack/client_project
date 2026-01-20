@@ -282,7 +282,7 @@ export default function PrivacyPolicy() {
           </p>
           <p>
             <span className="font-semibold">代表取締役:</span>{" "}
-            [お名前を挿入してください]
+            永井 大地
           </p>
         </footer>
       </div>
