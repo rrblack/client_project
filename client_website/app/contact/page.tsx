@@ -55,7 +55,7 @@ export default function Contact() {
             <label className="text-black block text-lg">お問い合わせ内容</label>
             <textarea rows={6} required id="message" value={formData.message} onChange={(e) => setFormData({...formData, message: e.target.value})}
             className="focus:outline-none focus:ring focus:ring-orange-300 shadow-sm text-lg bg-white text-black border-2  border-orange-400 pl-2 pt-3 rounded-lg" />
-            <button className="ring ring-orange-800 text-black shadow-lg px-8 hover:scale-110 transition-transform rounded-2xl bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 hover:bg-orange-500 text-xl mt-10 py-2 w-auto cursor-pointer justify-self-center" 
+            <button className="ring ring-orange-800 text-white shadow-lg px-8 hover:scale-110 transition-transform rounded-2xl bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 hover:bg-orange-500 text-xl mt-10 py-2 w-auto cursor-pointer justify-self-center" 
             > 
             
             {status === 'loading' ? '...' : '送信'} </button>

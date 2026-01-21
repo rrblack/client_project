@@ -44,7 +44,7 @@ export default function Recruit() {
 
 
     return(
-        <section className="mx-auto  min-h-screen flex items-center bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200 overflow-x-hidden">
+        <section className="mx-auto  flex items-center bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200">
             <div className="bg-white rounded-2xl w-200 shadow-lg mx-auto md:pt-12 pt-24 md:mt-19 ">
                 <h1 className="text-black font-semibold text-4xl text-center after:content-[''] after:block after:w-5 after:bg-orange-500 after:h-1 after:mt-4 after:px-10 after:mx-auto "> 応募フォーム</h1>
                 <div className="">
@@ -79,7 +79,7 @@ export default function Recruit() {
                         </label>
                         <textarea rows={4} required id="message" value={formData.message} onChange={(e) => setFormData({...formData, message: e.target.value})} className="focus:outline-none focus:ring focus:ring-orange-300 shadow-lg border-2 border-orange-400 pl-3 pt-3 pb-30 md:w-125 w-80 rounded-lg">
                         </textarea>
-                        <button className="ring ring-orange-800 shadow-lg px-8 hover:scale-110 transition-transform rounded-2xl bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 hover:bg-orange-500 text-xl mt-10 mb-10 px-6 py-2 w-auto cursor-pointer justify-self-center">
+                        <button className="text-white ring ring-orange-800 shadow-lg px-8 hover:scale-110 transition-transform rounded-2xl bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 hover:bg-orange-500 text-xl mt-10 mb-10 px-6 py-2 w-auto cursor-pointer justify-self-center">
                            {status === 'loading' ? '...' : '送信'} 
                         </button>
                         {status === "success" && (

@@ -4,7 +4,7 @@ export default function About() {
 
     return(
         <section className="mx-auto flex items-center bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200">
-            <div className="min-h-screen bg-white shadow-lg mx-auto w-200 rounded-2xl md:mt-19">
+            <div className="pb-20 bg-white shadow-lg mx-auto w-200 rounded-2xl md:mt-19">
             <div className="flex flex-col items-center justify-center mx-auto mt-24 md:mt-12">
             <img src="/logo1.png" className="h-auto w-90 rounded-lg"/>
             <div className="text-black">
