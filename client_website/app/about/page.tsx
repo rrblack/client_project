@@ -3,12 +3,12 @@
 export default function About() {
 
     return(
-        <section className="mx-auto  min-h-screen flex items-center bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200">
-            <div className="min-h-screen bg-white shadow-lg mx-auto w-225">
-            <div className="flex flex-col items-center justify-center mx-auto mt-24">
+        <section className="mx-auto flex items-center bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200">
+            <div className="min-h-screen bg-white shadow-lg mx-auto w-200 rounded-2xl md:mt-19">
+            <div className="flex flex-col items-center justify-center mx-auto mt-24 md:mt-12">
             <img src="/logo1.png" className="h-auto w-90 rounded-lg"/>
             <div className="text-black">
-                <h1 className="text-4xl mb-10 m-10 font-semibold text-center" > 会社概要  </h1>
+                <h1 className="text-4xl m-10 font-semibold text-center after:content-[''] after:block after:w-5 after:bg-orange-500 after:h-1 after:mt-4 after:px-10 after:mx-auto" > 会社概要  </h1>
                 <table className="grid grid-cols-1 gap-5 ">
                     <tr className="grid grid-cols-2">
                         <th>会社名</th>
