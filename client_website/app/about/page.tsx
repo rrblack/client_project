@@ -3,12 +3,15 @@
 export default function About() {
 
     return(
-        <section className="mx-auto flex items-center bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200">
-            <div className="pb-20 bg-white shadow-lg mx-auto w-200 rounded-2xl md:mt-19">
-            <div className="flex flex-col items-center justify-center mx-auto mt-24 md:mt-12">
-            <img src="/logo1.png" className="h-auto w-90 rounded-lg"/>
-            <div className="text-black">
-                <h1 className="text-4xl m-10 font-semibold text-center after:content-[''] after:block after:w-5 after:bg-orange-500 after:h-1 after:mt-4 after:px-10 after:mx-auto" > 会社概要  </h1>
+        <section className="bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200">
+            <div className="relative w-full h-65 pt-16 md:pt-19 flex justify-center">
+                <div className="absolute text-5xl md:text-6xl text-black font-semibold after:content-[''] after:block after:w-5 after:bg-orange-500 after:h-1 after:mt-4 after:px-10 after:mx-auto pt-20 z-1">会社概要</div>
+            <img className="absolute w-full h-full rounded-sm object-cover" src="/banner.png" alt="" />
+            </div>
+            <div className="pb-20 bg-white shadow-lg mx-auto w-full rounded-2xl md:mt-19">
+            <div className="flex flex-col items-center justify-center mx-auto mt-12 md:mt-12">
+            <img src="/logo1.png" className="pt-10 h-auto w-90 rounded-lg"/>
+            <div className="text-black pt-10">
                 <table className="grid grid-cols-1 gap-5 ">
                     <tr className="grid grid-cols-2">
                         <th>会社名</th>
