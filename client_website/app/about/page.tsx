@@ -5,7 +5,7 @@ export default function About() {
     return(
         <section className="bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200">
             <div className="relative w-full h-65 pt-16 md:pt-19 flex justify-center">
-                <div className="absolute text-5xl md:text-6xl text-black font-semibold after:content-[''] after:block after:w-5 after:bg-orange-500 after:h-1 after:mt-4 after:px-10 after:mx-auto pt-20 z-1">会社概要</div>
+                <div data-aos="fade-right" className="absolute text-5xl md:text-6xl text-black font-semibold after:content-[''] after:block after:w-5 after:bg-orange-500 after:h-1 after:mt-4 after:px-10 after:mx-auto pt-20 z-1">会社概要</div>
             <img className="absolute w-full h-full rounded-sm object-cover" src="/banner.png" alt="" />
             </div>
             <div className="pb-20 bg-white shadow-lg mx-auto w-full rounded-2xl md:mt-19">

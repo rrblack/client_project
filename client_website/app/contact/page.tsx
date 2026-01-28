@@ -43,7 +43,7 @@ export default function Contact() {
     return(
         <section className="mx-auto bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200 overflow-hidden ">
             <div className="relative w-full h-65 pt-16 md:pt-19 flex justify-center">
-                <div className="absolute text-5xl md:text-6xl text-black font-semibold after:content-[''] after:block after:w-5 after:bg-orange-500 after:h-1 after:mt-4 after:px-10 after:mx-auto pt-20 z-1">お問い合わせ</div>
+                <div data-aos="fade-right"  className="absolute text-5xl md:text-6xl text-black font-semibold after:content-[''] after:block after:w-5 after:bg-orange-500 after:h-1 after:mt-4 after:px-10 after:mx-auto pt-20 z-1">お問い合わせ</div>
             <img className="absolute w-full h-full rounded-sm object-cover" src="/banner.png" alt="" />
             </div>
         <div className=" bg-white shadow-lg mx-auto w-full md:px-50 px-10 py-10 pt-16 rounded-2xl md:mt-19">
