@@ -172,7 +172,7 @@ export default function Home() {
       </section>
 
       {/* この人にピッタリ */}
-      <section className='bg-white py-20 px-6 overflow-hidden'>
+      <section className='bg-white py-20 px-6 overflow-hidden -mt-20'>
         <h1 data-aos="fade-up" data-aos-duration="1000" className='md:text-5xl text-3xl text-black text-center font-bold'> モアプロはこんな人にピッタリ</h1>
         <div className='flex mx-auto justify-center items-center shadow-md rounded-xl bg-gray-300/20 p-4 mt-10 mb-10 md:w-125 md:h-100 '>
           <div className='flex justify-center items-center text-2xl'>
@@ -202,7 +202,7 @@ export default function Home() {
       </section>
 
       {/* 応募 */}
-      <section className='bg-white py-20 px-6 overflow-hidden'>
+      <section className='bg-white py-20 px-6 overflow-hidden -mt-20'>
         <h1 data-aos="fade-up" data-aos-duration="1000" className='md:text-5xl text-3xl text-black text-center font-bold mx-auto'>応募からデビューまで</h1>
         <h1 data-aos="fade-up" data-aos-duration="1000" className='md:text-5xl text-3xl text-black text-center font-bold mx-auto p-4 mt-4'>たった3ステップ </h1>
         <div className='flex md:flex-row flex-col mx-auto justify-center items-center md:w-200 mt-10'>
@@ -236,10 +236,10 @@ export default function Home() {
                 </h2>
         <div className='grid md:grid-cols-3 justify-items-center gap-10 '> 
             <div data-aos="fade-up" data-aos-duration="1000" className=' mx-auto text-center mt-5'>
-              <div className="w-50 h-50 mx-auto object-cover rounded-full bg-pink-500" />
-              <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>ライバーの名前</span>
+              <img className="w-125 h-125 mx-auto object-cover rounded-full" src="/nao.jpg" alt="Nao" />
+              <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>Nao</span>
               <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
-              <p> ○○さんは能力的な人であり、インスタでも凄く人気です。フォロワーが５万人以上あります。</p> <br></br> <p> ○○さんの趣味はカラオケ、猫遊び、そして寝ることです。</p>
+              <p> Naoさんは旅行が好きでなんでも話せ子です。</p> <br></br> <p> Naoさんの趣味はカラオケ、猫遊び、そして寝ることです。</p>
               </div>
             </div>
             <div data-aos="fade-up" data-aos-duration="1000" className=' mx-auto text-center mt-5'>
