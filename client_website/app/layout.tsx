@@ -63,15 +63,24 @@ export default function RootLayout({
             <h3 className="font-semibold mb-4">Links</h3>
             <ul className="space-y-2 text-sm text-gray-400">
               <li><Link href="/about">About</Link></li>
-              <li><Link href="/services">Services</Link></li>
+              <li><Link href="/recruit">Recruit</Link></li>
               <li><Link href="/contact">Contact</Link></li>
             </ul>
           </div>
           <div>
             <h3 className="font-semibold mb-4">Follow Us</h3>
             <div className="flex gap-4">
-              <div className="w-10 h-10 bg-gray-800 rounded-full"></div>
-              <div className="w-10 h-10 bg-gray-800 rounded-full"></div>
+              <div className="w-10 h-10 rounded-full">
+                <Link href={"https://instagram.com/moasobi_project"}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 48 48">
+                  <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"
+                    d="M30,11H18c-3.9,0-7,3.1-7,7v12c0,3.9,3.1,7,7,7h12c3.9,0,7-3.1,7-7V18C37,14.1,33.9,11,30,11z"/>
+                  <circle cx="31" cy="16" r="1" fill="#fff"/>
+                  <circle cx="24" cy="24" r="6" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+                </svg>
+                </Link>
+              </div>
+              {/* <div className="w-10 h-10 bg-gray-800 rounded-full"></div> */}
             </div>
           </div>
         </div>
