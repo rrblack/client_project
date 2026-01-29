@@ -24,10 +24,10 @@ export default function Home() {
           <div data-aos="fade-right" data-aos-duration="3000" data-aos-delay="3000" data-aos-anchor-placement="top-bottom" className='absolute lg:h-5 lg:w-265 lg:mt-85 sm:mx-20 xl:mx-50 bg-yellow-300'></div>
             </div>
           <div className="flex gap-4 md:mt-125 mt-80 md:pb-0 pb-15 justify-center text-center text-3xl">
-            <Link href="/recruit" className=" z-1 shadow-lg px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white rounded-full font-semibold hover:shadow-lg transition-transform hover:scale-105">
+            <Link href="/recruit" className="text-white z-1 shadow-lg px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-600  rounded-full font-semibold hover:shadow-lg transition-transform hover:scale-105">
               応募する
             </Link>
-            <Link href="/contact" className=" z-1 shadow-lg px-8 py-4 bg-gradient-to-l from-green-500 via-green-300 to-green-500  rounded-full font-semibold hover:bg-green-500 hover:shadow-lg transition-transform hover:scale-105">
+            <Link href="/contact" className="text-white z-1 shadow-lg px-8 py-4 bg-gradient-to-l from-green-500 via-green-300 to-green-500 rounded-full font-semibold hover:bg-green-500 hover:shadow-lg transition-transform hover:scale-105">
               相談する
             </Link>
           </div>
@@ -111,7 +111,7 @@ export default function Home() {
       <section className='py-20 px-6 bg-gradient-to-bl from-orange-200 via-orange-100 to-yellow-100 pb-10 overflow-hidden'>
         <h1 data-aos="fade-down" data-aos-duration="2000" className='md:text-5xl text-4xl text-black font-bold text-center p-4'> 代表メッセージ</h1>
         <img data-aos="fade-down" data-aos-duration="2000" className="md:w-100 md:h-100 mx-auto object-cover rounded-md shadow-md" src="/daihyou.png" alt="" /> 
-        <h2 data-aos="fade-up" data-aos-duration="2000" className='md:text-3xl text-2xl text-black  text-center p-4'> 代表 永井大地より </h2>
+        <h2 data-aos="fade-right" data-aos-duration="2000" className='md:text-3xl text-2xl text-black  text-center p-4'> 代表 永井大地より </h2>
         <div className='flex mx-auto justify-center items-center bg-white/40 md:w-200 md:h-150 p-8 gap-4 rounded-xl shadow-md'>
         <div data-aos="fade-up" data-aos-duration="2000" className='w-150 text-center text-black text-xl p-6 container '>
           <p className=''>ライブ配信で大切なのは、</p>
