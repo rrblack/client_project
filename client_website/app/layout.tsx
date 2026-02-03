@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Moasobi project",
+  title: "モアプロ",
   description: "新しい挑戦を",
 };
 

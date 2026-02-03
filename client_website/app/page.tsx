@@ -10,20 +10,19 @@ export default function Home() {
       <section className="relative mx-auto min-h-screen md:flex md:items-center bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200 overflow-hidden md:pt-38  ">
         <img className="absolute w-full h-full mx-auto object-cover rounded-sm" src="/S__8011843.jpg" alt="" /> 
         <div className="md:container md:mx-auto md:text-center ">
-          <div className='relative md:py-0 py-25 '>
+          <div className='relative md:py-0 py-25'>
             <h1 data-aos="fade-right" data-aos-duration="3000" className="border-red-700 md:mt-40  
             z-11 mt-25 mx-10 absolute text-5xl md:text-7xl font-bold  
             text-white text-shadow-amber-100 bg-clip-text" style={{ textShadow: '1px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 2px 0 #000' }}>
-           あなたの夢を実現する場所 </h1>
-           <div data-aos="fade-right" data-aos-duration="3000" className='absolute lg:h-10 lg:w-200 lg:mt-50 lg:mx-12 z-10 bg-yellow-300'></div>
-          <h2 data-aos="fade-right" data-aos-duration="3000" data-aos-delay="3000" data-aos-anchor-placement="top-bottom"
-          className=" z-11 mt-59 md:mt-80 md:mx-0 mx-2 md:px-10 px-10 md:mb-6
+           がんばった時間が、収入になる</h1>
+           <div data-aos="fade-right" data-aos-duration="3000" className='absolute lg:h-10 lg:w-250 lg:mt-50 lg:mx-12 z-10 bg-yellow-300'></div>
+          <h2  data-aos="fade-right"  data-aos-duration="3000" data-aos-delay="3000" data-aos-anchor-placement="top-bottom"
+          className="before:hidden before:mx-48 before:mt-4 md:before:block before:absolute before:content-[''] before:bg-yellow-300 before:h-5 before:w-200 before:-z-10 md:py-0 py-15 z-11 mt-59 md:mt-80 md:mx-0 mx-2 md:px-10 px-10 md:mb-6
            absolute text-3xl md:text-4xl font-bold  text-white w-full " style={{ textShadow: '0px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 1px 0 #000' }}>
-            プロのライブ配信者として、新しいキャリアをスタートしませんか？
+            モアプロは、あなたが最短で稼げるように支援する　
           </h2>
-          <div data-aos="fade-right" data-aos-duration="3000" data-aos-delay="3000" data-aos-anchor-placement="top-bottom" className='absolute lg:h-5 lg:w-265 lg:mt-85 sm:mx-20 xl:mx-50 bg-yellow-300'></div>
             </div>
-          <div className="flex gap-4 md:mt-125 mt-80 md:pb-0 pb-15 justify-center text-center text-3xl">
+          <div className="flex gap-4 md:mt-125 mt-90 md:pb-0 md:mb-20 pb-15 justify-center text-center text-3xl">
             <Link href="/recruit" className="text-white z-1 shadow-lg px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-600  rounded-full font-semibold hover:shadow-lg transition-transform hover:scale-105">
               応募する
             </Link>
@@ -65,9 +64,9 @@ export default function Home() {
       <section className="py-20 px-6 bg-white overflow-hidden">
         <div data-aos="fade-up" data-aos-duration="3000" className="container mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="md:text-4xl text-3xl font-bold mb-6 text-black">Moasobi Projectとは？</h2>
+            <h2 className="md:text-4xl text-3xl font-bold mb-6 text-black">モアプロとは？</h2>
             <p className="text-black mb-4 text-lg">
-             Moasobi Projectは、ライブ配信という文化が生まれた時から、配信者に寄り添いプロデュース・マネジメントを行ってきました。
+             モアプロは、ライブ配信という文化が生まれた時から、配信者に寄り添いプロデュース・マネジメントを行ってきました。
             </p>
             <p className="text-black text-lg">
               ライブ配信という枠を飛び越え、配信者の夢を形にしてきた実績があります。KDDI主催の大型オーディションの運営事務局を担当するなど、外部とのコネクションが豊富です。
@@ -87,7 +86,7 @@ export default function Home() {
 
         {/* メリット */}
       <section className='py-20 px-6 bg-white -mb-15 overflow-hidden'>
-        <h1 data-aos="fade-up" data-aos-duration="1000" className='md:text-5xl text-3xl text-black font-semibold text-center'>Moasobi Projectのメリット</h1>
+        <h1 data-aos="fade-up" data-aos-duration="1000" className='md:text-5xl text-3xl text-black font-semibold text-center'>モアプロのメリット</h1>
         <div className='container mx-auto grid md:grid-cols-3 p-4 items-start gap-12 my-12 '>
           <div className='p-10'>
             <h1 data-aos="fade-up" data-aos-duration="1000" className='gap-4 text-4xl text-black font-semibold text-center h-22'>常に「最新」の情報をご提供</h1>
@@ -149,19 +148,19 @@ export default function Home() {
         <h1 data-aos="fade-up" data-aos-duration="1000" className='text-5xl text-black font-bold text-center pb-2'>収入イメージ</h1>
         <h2 data-aos="fade-up" data-aos-duration="1000" className='text-2xl text-black font-bold text-center p-8'> BIGO LIVEなら―― </h2>
         <div className='mx-auto flex flex-col md:flex-row items-center justify-center gap-6 pt-6 w-full h-full p-4'>
-          <div data-aos="fade-right" className='flex justify-center items-center bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 w-75 h-50 rounded-xl p-4 shadow-lg'>
+          <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="250" className='flex justify-center items-center bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 w-75 h-50 rounded-xl p-4 shadow-lg'>
             <div className=''>
             <p data-aos="fade-right" data-aos-duration="1000" className='text-2xl text-center font-semibold'>未経験スタート </p>
             <p data-aos="fade-right" data-aos-duration="1000" className='text-3xl text-center p-4 font-black'>月3～10万円 </p>
             </div>
           </div>
-          <div data-aos="fade-right" data-aos-duration="1000" className='bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 w-75 h-50 rounded-xl p-4 flex justify-center items-center shadow-lg'>
+          <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" className='bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 w-75 h-50 rounded-xl p-4 flex justify-center items-center shadow-lg'>
             <div className=''>
            <p data-aos="fade-right" data-aos-duration="1000" className='text-2xl text-center font-bold'>安定配信 </p>
             <p data-aos="fade-right" data-aos-duration="1000" className='text-3xl text-center p-4 font-black'>月10～30万円 </p>
             </div>
           </div>
-          <div data-aos="fade-right" data-aos-duration="1000" className='bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 w-75 h-50 rounded-xl p-4 flex justify-center items-center shadow-lg'>
+          <div data-aos="fade-right" data-aos-duration="1000"  data-aos-delay="750" className='bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 w-75 h-50 rounded-xl p-4 flex justify-center items-center shadow-lg'>
             <div className=''>
            <p data-aos="fade-right" data-aos-duration="1000" className='text-2xl text-center font-bold'>継続的に活動</p>
             <p data-aos="fade-right" data-aos-duration="1000" className='text-3xl text-center p-4 font-black'>月30万円以上も可能</p>
@@ -177,23 +176,23 @@ export default function Home() {
         <div className='flex mx-auto justify-center items-center shadow-md rounded-xl bg-gray-300/20 p-4 mt-10 mb-10 md:w-125 md:h-100 '>
           <div className='flex justify-center items-center text-2xl'>
             <ul className='text-black text-center　'>
-              <li data-aos="fade-right" data-aos-duration="1000" className="before:content-['✔'] before:p-2 before:text-green-500">
+              <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="250" className="before:content-['✔'] before:p-2 before:text-green-500">
                 未経験から配信を始めたい
               </li>
               <br></br>
-              <li data-aos="fade-right" data-aos-duration="1000" className="before:content-['✔'] before:p-2 before:text-green-500">
+              <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" className="before:content-['✔'] before:p-2 before:text-green-500">
                 安定して稼ぎたい
               </li>
               <br></br>
-              <li data-aos="fade-right" data-aos-duration="1000" className="before:content-['✔'] before:p-2 before:text-green-500">
+              <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="750" className="before:content-['✔'] before:p-2 before:text-green-500">
                 在宅で収入をつくりたい
               </li>
               <br></br>
-              <li data-aos="fade-right" data-aos-duration="1000" className="before:content-['✔'] before:p-2 before:text-green-500">
+              <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" className="before:content-['✔'] before:p-2 before:text-green-500">
                 楽しく続けられる副業がほしい
               </li>
               <br></br>
-              <li data-aos="fade-right" data-aos-duration="1000" className="before:content-['✔'] before:p-2 before:text-green-500">
+              <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1250" className="before:content-['✔'] before:p-2 before:text-green-500">
                 他アプリでうまくいかなかった
               </li>
             </ul>
@@ -207,10 +206,10 @@ export default function Home() {
         <h1 data-aos="fade-up" data-aos-duration="1000" className='md:text-5xl text-3xl text-black text-center font-bold mx-auto p-4 mt-4'>たった3ステップ </h1>
         <div className='flex md:flex-row flex-col mx-auto justify-center items-center md:w-200 mt-10'>
           <div className='flex flex-col justify-center items-center'>
-          <div data-aos="fade-right" data-aos-duration="1000" className='flex flex-col justify-center items-center text-8xl mx-auto object-cover bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-full w-50 h-50 text-center'>
+          <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="250" className='flex flex-col justify-center items-center text-8xl mx-auto object-cover bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-full w-50 h-50 text-center'>
           1
           </div>
-          <h1 data-aos="fade-right" data-aos-duration="1000" className='text-2xl text-black text-center font-bold mx-auto p-10'>無料応募</h1>
+          <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" className='text-2xl text-black text-center font-bold mx-auto p-10'>無料応募</h1>
           </div>
           <div className='flex flex-col mx-auto justify-center items-center  '>
           <div data-aos="fade-right" data-aos-duration="1000" className='flex flex-col justify-center items-center text-8xl mx-auto object-cover bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-full w-50 h-50 text-center'>
@@ -219,7 +218,7 @@ export default function Home() {
           <h1 data-aos="fade-right" data-aos-duration="1000" className='text-2xl text-black text-center font-bold mx-auto p-10'>オンライン面談</h1>
           </div>
           <div className='flex flex-col justify-center items-center'>
-          <div data-aos="fade-right" data-aos-duration="1000" className='flex flex-col justify-center items-center text-8xl mx-auto object-cover bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-full w-50 h-50 text-center'>
+          <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="750" className='flex flex-col justify-center items-center text-8xl mx-auto object-cover bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-full w-50 h-50 text-center'>
           3
           </div>
           <h1 data-aos="fade-right" data-aos-duration="1000" className='text-2xl text-black text-center font-bold mx-auto p-10'>配信スタート</h1>
@@ -235,25 +234,25 @@ export default function Home() {
                 所属ライバー 
                 </h2>
         <div className='grid md:grid-cols-3 justify-items-center gap-10 '> 
-            <div data-aos="fade-up" data-aos-duration="1000" className=' mx-auto text-center mt-5'>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250" className=' mx-auto text-center mt-5'>
               <img className="w-125 h-125 mx-auto object-cover rounded-full" src="/nao.jpg" alt="Nao" />
               <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>Nao</span>
               <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
-              <p> Naoさんは旅行が好きでなんでも話せ子です。</p> <br></br> <p> Naoさんの趣味はカラオケ、猫遊び、そして寝ることです。</p>
+              <p> Naoさんは旅行が好きでなんでも話せ子です。</p> <br></br> <p> Naoさんの一つのチャームポイントは笑顔です。</p>
               </div>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1000" className=' mx-auto text-center mt-5'>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" className=' mx-auto text-center mt-5'>
               <img className="w-125 h-125 mx-auto object-cover rounded-full" src="/S__8011784.jpg" alt="Yukina" />
               <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>ゆきな</span>
               <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
               <p> ゆきなさんは能力的な人であり、インスタでも凄く人気です。フォロワーが５万人以上あります。</p><br></br><p> ゆきなさんの趣味はカラオケ、猫遊び、そして寝ることです。</p>
               </div>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1000" className=' mx-auto text-center mt-5'>
-              <div className="w-50 h-50 mx-auto object-cover rounded-full bg-pink-500" />
-              <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>ライバーの名前</span>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750" className=' mx-auto text-center mt-5'>
+              <img className="w-125 h-125 mx-auto object-cover rounded-full" src="/aoki.jpg" alt="Aoki" />
+              <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>あおき</span>
               <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
-              <p> ○○さんは能力的な人であり、インスタでも凄く人気です。フォロワーが５万人以上あります。</p> <br></br> <p> ○○さんの趣味はカラオケ、猫遊び、そして寝ることです。</p>
+              <p> あおきさんは頭が良くて歌うことが大好きです</p> <br></br> <p> 週末はお散歩やテニスなどすることが好きです。</p>
               </div>
             </div>
           </div>
