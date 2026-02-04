@@ -16,8 +16,8 @@ export default function Home() {
             text-white text-shadow-amber-100 bg-clip-text" style={{ textShadow: '1px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 2px 0 #000' }}>
            がんばった時間が、収入になる</h1>
            <div data-aos="fade-right" data-aos-duration="3000" className='absolute lg:h-10 lg:w-250 lg:mt-50 lg:mx-12 z-10 bg-yellow-300'></div>
-          <h2  data-aos="fade-right"  data-aos-duration="3000" data-aos-delay="3000" data-aos-anchor-placement="top-bottom"
-          className="before:hidden before:mx-48 before:mt-4 md:before:block before:absolute before:content-[''] before:bg-yellow-300 before:h-5 before:w-200 before:-z-10 md:py-0 py-15 z-11 mt-59 md:mt-80 md:mx-0 mx-2 md:px-10 px-10 md:mb-6
+          <h2 data-aos="fade-right" data-aos-duration="3000" data-aos-delay="3000" data-aos-anchor-placement="top-bottom"
+          className="before:hidden before:mx-48 before:mt-4 md:before:block before:absolute before:content-[''] before:bg-yellow-300 before:h-5 before:lg:w-200 before:-z-10 md:py-0 py-15 z-11 mt-59 md:mt-80 md:mx-0 mx-2 md:px-40 px-10 md:mb-6
            absolute text-3xl md:text-4xl font-bold  text-white w-full " style={{ textShadow: '0px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 1px 0 #000' }}>
             モアプロは、あなたが最短で稼げるように支援する　
           </h2>
@@ -209,10 +209,10 @@ export default function Home() {
           <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="250" className='flex flex-col justify-center items-center text-8xl mx-auto object-cover bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-full w-50 h-50 text-center'>
           1
           </div>
-          <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" className='text-2xl text-black text-center font-bold mx-auto p-10'>無料応募</h1>
+          <h1 data-aos="fade-right" data-aos-duration="1000" className='text-2xl text-black text-center font-bold mx-auto p-10'>無料応募</h1>
           </div>
           <div className='flex flex-col mx-auto justify-center items-center  '>
-          <div data-aos="fade-right" data-aos-duration="1000" className='flex flex-col justify-center items-center text-8xl mx-auto object-cover bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-full w-50 h-50 text-center'>
+          <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" className='flex flex-col justify-center items-center text-8xl mx-auto object-cover bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-full w-50 h-50 text-center'>
           2
           </div>
           <h1 data-aos="fade-right" data-aos-duration="1000" className='text-2xl text-black text-center font-bold mx-auto p-10'>オンライン面談</h1>
