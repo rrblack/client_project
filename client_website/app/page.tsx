@@ -12,7 +12,7 @@ export default function Home() {
         <div className="md:container md:mx-auto md:text-center ">
           <div className='relative md:py-0 py-25'>
             <h1 data-aos="fade-right" data-aos-duration="3000" className="border-red-700 md:mt-40  
-            z-11 mt-25 mx-10 absolute text-5xl md:text-7xl font-bold  
+            z-11 mt-25 mx-10 absolute text-5xl md:text-7xl font-bold md:w-auto w-auto  
             text-white text-shadow-amber-100 bg-clip-text" style={{ textShadow: '1px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 2px 0 #000' }}>
            がんばった時間が、収入になる</h1>
            <div data-aos="fade-right" data-aos-duration="3000" className='absolute lg:h-10 lg:w-250 lg:mt-50 lg:mx-12 z-10 bg-yellow-300'></div>
@@ -39,19 +39,19 @@ export default function Home() {
       <div className='flex justify-center items-center mx-auto bg-gray-300/10 md:w-125 md:h-100 rounded-xl shadow-md mb-10 mt-10 p-7'>
         <div className='text-black gap-4 text-2xl'>
           <ul className=''>
-            <li data-aos="fade-right" data-aos-duration="1000" className="before:content-['〆'] before:p-2 before:text-blue-500 ">
+            <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="250" className="before:content-['〆'] before:p-2 before:text-blue-500 ">
               配信って本当に稼げるの？
             </li>
             <br></br>
-            <li data-aos="fade-right" data-aos-duration="1000" className="before:content-['〆'] before:p-2 before:text-blue-500">
+            <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" className="before:content-['〆'] before:p-2 before:text-blue-500">
               TikTokはもうライバルが多すぎる…
             </li>
             <br></br>
-            <li data-aos="fade-right" data-aos-duration="1000" className="before:content-['〆'] before:p-2 before:text-blue-500">
+            <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="750" className="before:content-['〆'] before:p-2 before:text-blue-500">
               未経験の自分でも大丈夫？
             </li>
             <br></br>
-            <li data-aos="fade-right" data-aos-duration="1000" className="before:content-['〆'] before:p-2 before:text-blue-500">
+            <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" className="before:content-['〆'] before:p-2 before:text-blue-500">
               安定して続けられるか不安
             </li>
           </ul>
@@ -263,27 +263,27 @@ export default function Home() {
         <div className="container mx-auto max-w-3xl">
           <h2 className="text-4xl text-black font-bold text-center mb-12">Q&A</h2>
           <div className="space-y-4 text-black">
-              <details data-aos="fade-right" className="bg-gray-50 rounded-lg p-6 shadow-sm">
+              <details data-aos="fade-right" data-aos-delay="100" className="bg-gray-50 rounded-lg p-6 shadow-sm">
                 <summary className="font-semibold cursor-pointer">ライバーって何をするんですか？</summary>
                 <p className="mt-4 text-gray-600">ライブ配信アプリで生配信を行います。自分の趣味や今日のできごとなど、簡単な雑談からスタートできます。特別なスキルは必要ありません。</p>
               </details>
-              <details data-aos="fade-right" className="bg-gray-50 rounded-lg p-6 shadow-sm">
+              <details data-aos="fade-right" data-aos-delay="150" className="bg-gray-50 rounded-lg p-6 shadow-sm">
                 <summary className="font-semibold cursor-pointer">本当に未経験でも大丈夫？</summary>
                 <p className="mt-4 text-gray-600">はい。ほとんどの方が未経験からのスタートです。</p>
               </details>
-              <details data-aos="fade-right" className="bg-gray-50 rounded-lg p-6 shadow-sm">
+              <details data-aos="fade-right" data-aos-delay="200"  className="bg-gray-50 rounded-lg p-6 shadow-sm">
                 <summary className="font-semibold cursor-pointer">顔出しは必要？</summary>
                 <p className="mt-4 text-gray-600">必要ではありません。あなたに合った形を提案します。</p>
               </details>
-              <details data-aos="fade-right" className="bg-gray-50 rounded-lg p-6 shadow-sm">
+              <details data-aos="fade-right" data-aos-delay="300"  className="bg-gray-50 rounded-lg p-6 shadow-sm">
                 <summary className="font-semibold cursor-pointer">費用はかかりますか？</summary>
                 <p className="mt-4 text-gray-600">登録・サポートはすべて無料です。</p>
               </details>
-              <details data-aos="fade-right" className="bg-gray-50 rounded-lg p-6 shadow-sm">
+              <details data-aos="fade-right" data-aos-delay="400" className="bg-gray-50 rounded-lg p-6 shadow-sm">
                 <summary className="font-semibold cursor-pointer">配信時間の決まりは？</summary>
                 <p className="mt-4 text-gray-600">無理のない範囲で相談しながら決められます。</p>
               </details>
-              <details data-aos="fade-right" className="bg-gray-50 rounded-lg p-6 shadow-sm">
+              <details data-aos="fade-right" data-aos-delay="500" className="bg-gray-50 rounded-lg p-6 shadow-sm">
                 <summary className="font-semibold cursor-pointer">他の仕事との掛け持ちはできますか？</summary>
                 <p className="mt-4 text-gray-600">可能です。学業や本業と両立しながら活動されている方も多数いらっしゃいます。あなたのライフスタイルに合わせた活動をサポートします。</p>
               </details>
