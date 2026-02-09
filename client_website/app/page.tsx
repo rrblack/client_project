@@ -303,7 +303,7 @@ export default function Home() {
               今すぐ無料で応募する
             </Link>
             <Link data-aos="fade-right" data-aos-duration="1000" href="/contact" className="text-xl  shadow-lg px-8 py-4 bg-gradient-to-l from-green-500 via-green-300 to-green-500  rounded-full font-semibold hover:bg-green-500 hover:shadow-lg transition-transform hover:scale-105">
-              LINEでかんたん相談
+              かんたん相談
             </Link>
           </div>
         </div>

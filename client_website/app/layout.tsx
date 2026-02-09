@@ -4,6 +4,7 @@ import "./globals.css";
 import Link from "next/link";
 import AOSProvider from "./components/Aos";
 import HamburgerMenu from "./components/hamburger";
+import Script from 'next/script'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,6 +32,16 @@ export default function RootLayout({
       <body
         className={`bg-amber-600 min-h-screen ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-QV2VBFC8GH" strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-QV2VBFC8GH');
+        `}
+      </Script>
         <header className="fixed backdrop-blur z-99 shadow-sm w-full">
         <nav className="mx-auto md:px-6 md:py-4 p-8 flex items-center justify-center gap-8 ">
           <Link href="/" className="absolute left-6">

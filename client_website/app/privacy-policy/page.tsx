@@ -8,7 +8,7 @@ export default function PrivacyPolicy() {
             プライバシーポリシー
           </h1>
           <p className="text-lg text-gray-700 mb-2">株式会社モアソビ</p>
-          <p className="text-sm text-gray-500">最終更新日: 2026年1月11日</p>
+          <p className="text-sm text-gray-500">最終更新日: 2026年2月09日</p>
         </header>
 
         {/* Content */}
@@ -263,7 +263,7 @@ export default function PrivacyPolicy() {
                 株式会社モアソビ 個人情報保護担当
               </p>
               <p className="text-gray-700 mb-1">
-                メールアドレス: privacy@moreasobi.co.jp
+                メールアドレス: info@moapro.jp
               </p>
               <p className="text-gray-700">
                 受付時間: 平日 10:00～18:00(土日祝日、年末年始を除く)

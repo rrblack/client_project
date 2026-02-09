@@ -80,7 +80,7 @@ export default function Recruit() {
                         <input required type="text" id="job" value={formData.job} onChange={(e) => setFormData({...formData, job: e.target.value})} className="w-full focus:outline-none focus:ring focus:ring-orange-300 shadow-md border-2 border-orange-400 pl-3 rounded-lg">
                         </input>
                         <label className="text-lg text-black before:p-2 before:content-['*'] before:text-red-500">
-                            なぜ応募したいですか？（簡単に）
+                            なぜ応募したいですか？
                         </label>
                         <textarea rows={4} required id="message" value={formData.message} onChange={(e) => setFormData({...formData, message: e.target.value})} className="w-full focus:outline-none focus:ring focus:ring-orange-300 shadow-lg border-2 border-orange-400 pl-3 pt-3 pb-30  rounded-lg">
                         </textarea>
