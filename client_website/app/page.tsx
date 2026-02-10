@@ -238,21 +238,22 @@ export default function Home() {
               <img className="w-125 h-125 mx-auto object-cover rounded-full" src="/nao.jpg" alt="Nao" />
               <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>Nao</span>
               <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
-              <p> Naoさんは旅行が好きでなんでも話せ子です。</p> <br></br> <p> Naoさんの一つのチャームポイントは笑顔です。</p>
+              <p> 旅行が大好き！デイズニーも大好き！笑顔もとても可愛いです。配信枠でもどんどん話しかけてくださいね！</p>
               </div>
             </div>
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" className=' mx-auto text-center mt-5'>
               <img className="w-125 h-125 mx-auto object-cover rounded-full" src="/S__8011784.jpg" alt="Yukina" />
               <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>ゆきな</span>
+              <span className='block mt-5 text-3xl text-orange-600 font-bold text-center'>モアプロマネージャー</span>
               <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
-              <p> ゆきなさんは能力的な人であり、インスタでも凄く人気です。フォロワーが５万人以上あります。</p><br></br><p> ゆきなさんの趣味はカラオケ、猫遊び、そして寝ることです。</p>
+              <p> 動物大好き、可愛いもの大好き、綺麗なもの大好き、美しいものも大好き！寝ることも大好きです。よろしくお願いいたします。</p>
               </div>
             </div>
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750" className=' mx-auto text-center mt-5'>
               <img className="w-125 h-125 mx-auto object-cover rounded-full" src="/aoki.jpg" alt="Aoki" />
-              <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>あおき</span>
+              <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>あおきたかはし</span>
               <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
-              <p> あおきさんは頭が良くて歌うことが大好きです</p> <br></br> <p> 週末はお散歩やテニスなどすることが好きです。</p>
+              <p> 自称変な人ですが、とっても優しくて思いやりがある方です！配信枠もいつも楽しく盛り上がってるのでぜひ覗いて見てください。</p>
               </div>
             </div>
           </div>
