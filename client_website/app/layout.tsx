@@ -76,6 +76,7 @@ export default function RootLayout({
               <li><Link href="/about">About</Link></li>
               <li><Link href="/recruit">Recruit</Link></li>
               <li><Link href="/contact">Contact</Link></li>
+              <li><Link href="/privacy-policy">Privacy Policy</Link></li>
             </ul>
           </div>
           <div>
