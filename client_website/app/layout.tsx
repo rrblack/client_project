@@ -44,8 +44,8 @@ export default function RootLayout({
       </Script>
         <header className="fixed backdrop-blur z-99 shadow-sm w-full">
         <nav className="mx-auto md:px-6 md:py-4 p-8 flex items-center justify-center gap-8 ">
-          <Link href="/" className="absolute left-6">
-          <img src="/logo1.png" className="h-auto w-35 rounded-lg "/>
+          <Link href="/" className="absolute left-0">
+          <img src="/logo_clear.png" className="h-45 w-65 rounded-lg -mx-10 mt-3"/>
           </Link>
           <ul className="hidden md:flex gap-3 text-xl font-medium ">
             <li><Link href="/about" className="inline-block shadow-md hover:shadow-lg shadow-yellow-500 hover:scale-110 transition-transform bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-full px-4 py-2" >会社概要</Link></li>
@@ -66,7 +66,7 @@ export default function RootLayout({
         <div className="container mx-auto grid md:grid-cols-3 gap-8">
           <div>
             <div className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent mb-4">
-            <img src="/logo1.png" className="h-auto w-35 rounded-lg "/>
+            <img src="/logo_clear2.png" className="w-35 h-35 -ml-10 -mb-15 -mt-10 md:h-70 md:w-70 md:-ml-10 md:-mt-10 "/>
             </div>
             <p className="text-sm text-gray-400">BIGO LIVE 公式パートナー事務所</p>
           </div>

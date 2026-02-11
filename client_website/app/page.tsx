@@ -12,14 +12,14 @@ export default function Home() {
         <div className="md:container md:mx-auto md:text-center ">
           <div className='relative md:py-0 py-25'>
             <h1 data-aos="fade-right" data-aos-duration="3000" className="border-red-700 md:mt-40  
-            z-11 mt-25 mx-10 absolute text-5xl md:text-7xl font-bold md:w-auto w-auto  
+            z-11 mt-45 mx-5 absolute text-4xl md:text-7xl font-bold md:w-auto w-auto  
             text-white text-shadow-amber-100 bg-clip-text" style={{ textShadow: '1px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 2px 0 #000' }}>
-           がんばった時間が、収入になる</h1>
+           がんばった時間が、<br className="md:hidden" /> 収入になる</h1>
            <div data-aos="fade-right" data-aos-duration="3000" className='absolute lg:h-10 lg:w-250 lg:mt-50 lg:mx-12 z-10 bg-yellow-300'></div>
           <h2 data-aos="fade-right" data-aos-duration="3000" data-aos-delay="3000" data-aos-anchor-placement="top-bottom"
-          className="before:hidden before:mx-48 before:mt-4 md:before:block before:absolute before:content-[''] before:bg-yellow-300 before:h-5 before:lg:w-200 before:-z-10 md:py-0 py-15 z-11 mt-59 md:mt-80 md:mx-0 mx-2 md:px-40 px-10 md:mb-6
-           absolute text-3xl md:text-4xl font-bold  text-white w-full " style={{ textShadow: '0px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 1px 0 #000' }}>
-            モアプロは、あなたが最短で稼げるように支援する　
+          className="before:hidden before:mx-48 before:mt-4 md:before:block before:absolute before:content-[''] before:bg-yellow-300 before:h-5 before:lg:w-210 before:-z-10 md:py-0 py-15 z-11 mt-70 md:mt-80 md:mx-0 mx-2 md:px-40 px-5 md:mb-6
+           absolute text-2xl md:text-4xl font-bold  text-white w-full " style={{ textShadow: '0px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 1px 0 #000' }}>
+            モアプロは、あなたが最短で稼げるように支援します　
           </h2>
             </div>
           <div className="flex gap-4 md:mt-125 mt-90 md:pb-0 md:mb-20 pb-15 justify-center text-center text-3xl">
@@ -89,7 +89,7 @@ export default function Home() {
         <h1 data-aos="fade-up" data-aos-duration="1000" className='md:text-5xl text-3xl text-black font-semibold text-center'>モアプロのメリット</h1>
         <div className='container mx-auto grid md:grid-cols-3 p-4 items-start gap-12 my-12 '>
           <div className='p-10'>
-            <h1 data-aos="fade-up" data-aos-duration="1000" className='gap-4 text-4xl text-black font-semibold text-center h-22'>常に「最新」の情報をご提供</h1>
+            <h1 data-aos="fade-up" data-aos-duration="1000" className='gap-4 text-4xl text-black font-semibold text-center h-22'>常に最新の情報を<br className="hidden md:block" />ご提供</h1>
             <div data-aos="fade-up" data-aos-duration="1000" className="flex justify-center items-center mx-auto my-8 w-50 h-50  object-cover rounded-full bg-pink-500 "> <span className='text-white text-8xl '> 1</span></div>
             <p data-aos="fade-up" data-aos-duration="1000" className='py-4 text-xl text-black font-semibold '>配信者として活動する業界に精通したマネージャーがみなさんをサポートします。</p>
             </div>
@@ -235,25 +235,24 @@ export default function Home() {
                 </h2>
         <div className='grid md:grid-cols-3 justify-items-center gap-10 '> 
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250" className=' mx-auto text-center mt-5'>
-              <img className="w-125 h-125 mx-auto object-cover rounded-full" src="/nao.jpg" alt="Nao" />
+              <img className="md:w-125 md:h-125 w-90 h-90 mx-auto object-cover rounded-full" src="/nao.jpg" alt="Nao" />
               <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>Nao</span>
               <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
-              <p> 旅行が大好き！デイズニーも大好き！笑顔もとても可愛いです。配信枠でもどんどん話しかけてくださいね！</p>
+              <p> ディズニー大好き！旅行大好き！野球も大好き！いろんなお話ができる子です。笑顔もとっても素敵です！</p>
               </div>
             </div>
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" className=' mx-auto text-center mt-5'>
-              <img className="w-125 h-125 mx-auto object-cover rounded-full" src="/S__8011784.jpg" alt="Yukina" />
-              <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>ゆきな</span>
-              <span className='block mt-5 text-3xl text-orange-600 font-bold text-center'>モアプロマネージャー</span>
+              <img className="md:w-125 md:h-125 w-90 h-90 mx-auto object-cover rounded-full" src="/saki.jpg" alt="Saki" />
+              <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>さき</span>
               <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
-              <p> 動物大好き、可愛いもの大好き、綺麗なもの大好き、美しいものも大好き！寝ることも大好きです。よろしくお願いいたします。</p>
+              <p> 現役看護学生！可愛いものが大好き。リアクションもしっかりしてくれる、相談にも乗ってくれるなんでもできる子です</p>
               </div>
             </div>
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750" className=' mx-auto text-center mt-5'>
-              <img className="w-125 h-125 mx-auto object-cover rounded-full" src="/aoki.jpg" alt="Aoki" />
+              <img className="md:w-125 md:h-125 w-90 h-90 mx-auto object-cover rounded-full" src="/aoki.jpg" alt="Aoki" />
               <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>あおきたかはし</span>
               <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
-              <p> 自称変な人ですが、とっても優しくて思いやりがある方です！配信枠もいつも楽しく盛り上がってるのでぜひ覗いて見てください。</p>
+              <p> 自称変な人ですが、とても優しくて思いやりがある方です。配信枠もいつも楽しく盛り上がっています！</p>
               </div>
             </div>
           </div>

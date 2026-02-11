@@ -51,7 +51,7 @@ export default function Recruit() {
             </div>
             <div className="bg-white rounded-2xl md:w-full shadow-lg mx-auto md:pt-12 pt-24 md:mt-19 ">
                 <div className="mx-auto grid grid-col gap-4 w-85 md:w-150">
-                    <p className="text-center text-xl mt-10 md:mt-0 text-black font-semibold ">ライバーへのご応募にご興味をお持ちいただき、誠にありがとうございます。ぜひ一緒にお仕事ができれば嬉しく思います。</p> <p className="text-center text-xl mt-10 md:mt-0 text-black font-semibold ">下記の必要事項をご入力のうえご送信ください。内容を確認後、2営業日以内 にご連絡いたします。皆さまとお会いできること、そしてご一緒に活動できることを楽しみにしております。</p>
+                    <p className="text-center text-xl mt-10 md:mt-0 text-black font-semibold ">ライバーへのご応募にご興味をお持ちいただき、誠にありがとうございます。ぜひ一緒にお仕事ができれば嬉しく思います。</p> <p className="text-center text-xl mt-10 md:mt-0 text-black font-semibold ">下記の必要事項をご入力のうえご送信ください。内容を確認後、2営業日以内 にご連絡いたします。ご一緒に活動できることを楽しみにしております。</p>
                     <div className="md:w-full">
                     <form onSubmit={handleSubmit} className=" flex flex-col  text-black gap-5 mt-12  font-semibold">
                         <label className="text-lg text-black before:p-2 before:content-['*'] before:text-red-500 ">
@@ -75,12 +75,12 @@ export default function Recruit() {
                         <input required type="tel" id="phone" value={formData.phone_number} onChange={(e) => setFormData({...formData, phone_number: e.target.value})} className="w-full focus:outline-none focus:ring focus:ring-orange-300 shadow-md border-2 border-orange-400 pl-3 rounded-lg">
                         </input>
                         <label className="text-lg text-black  before:p-2 before:content-['*'] before:text-red-500">
-                            現在の仕事
+                            現在のお仕事
                         </label>
                         <input required type="text" id="job" value={formData.job} onChange={(e) => setFormData({...formData, job: e.target.value})} className="w-full focus:outline-none focus:ring focus:ring-orange-300 shadow-md border-2 border-orange-400 pl-3 rounded-lg">
                         </input>
                         <label className="text-lg text-black before:p-2 before:content-['*'] before:text-red-500">
-                            なぜ応募したいですか？
+                            応募理由
                         </label>
                         <textarea rows={4} required id="message" value={formData.message} onChange={(e) => setFormData({...formData, message: e.target.value})} className="w-full focus:outline-none focus:ring focus:ring-orange-300 shadow-lg border-2 border-orange-400 pl-3 pt-3 pb-30  rounded-lg">
                         </textarea>
