@@ -28,24 +28,35 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* Header */}
+      <head>
+        <Script
+          id="gtm-script"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-MM6X2DKL');`,
+          }}
+        />
+      </head>
       <body
         className={`bg-amber-600 min-h-screen ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-QV2VBFC8GH" strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-QV2VBFC8GH');
-        `}
-      </Script>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-MM6X2DKL"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          />
+        </noscript>
         <header className="fixed backdrop-blur z-99 shadow-sm w-full">
+        {/* ... rest unchanged ... */}
         <nav className="mx-auto md:px-6 md:py-4 p-8 flex items-center justify-center gap-8 ">
           <Link href="/" className="absolute left-0">
-          <img src="/logo_clear.png" className="h-45 w-65 rounded-lg -mx-10 mt-3"/>
+          <img src="/final_logo.png" className="h-40 w-80 rounded-lg -mx-10 mt-3"/>
           </Link>
           <ul className="hidden md:flex gap-3 text-xl font-medium ">
             <li><Link href="/about" className="inline-block shadow-md hover:shadow-lg shadow-yellow-500 hover:scale-110 transition-transform bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-full px-4 py-2" >会社概要</Link></li>
@@ -66,7 +77,7 @@ export default function RootLayout({
         <div className="container mx-auto grid md:grid-cols-3 gap-8">
           <div>
             <div className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent mb-4">
-            <img src="/logo_clear2.png" className="w-35 h-35 -ml-10 -mb-15 -mt-10 md:h-70 md:w-70 md:-ml-10 md:-mt-10 "/>
+            <img src="/logo2.png" className="w-60 h-60 -ml-10 -mb-15 -mt-10 md:h-70 md:w-70 md:-ml-10 md:-mt-10 "/>
             </div>
             <p className="text-sm text-gray-400">BIGO LIVE 公式パートナー事務所</p>
           </div>
@@ -92,7 +103,6 @@ export default function RootLayout({
                 </svg>
                 </Link>
               </div>
-              {/* <div className="w-10 h-10 bg-gray-800 rounded-full"></div> */}
             </div>
           </div>
         </div>

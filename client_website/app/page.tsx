@@ -15,14 +15,14 @@ export default function Home() {
             z-11 mt-45 mx-5 absolute text-4xl md:text-7xl font-bold md:w-auto w-auto  
             text-white text-shadow-amber-100 bg-clip-text" style={{ textShadow: '1px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 2px 0 #000' }}>
            がんばった時間が、<br className="md:hidden" /> 収入になる</h1>
-           <div data-aos="fade-right" data-aos-duration="3000" className='absolute lg:h-10 lg:w-250 lg:mt-50 lg:mx-12 z-10 bg-yellow-300'></div>
+           <div data-aos="fade-right" data-aos-duration="3000" className='absolute lg:h-10 lg:w-250 lg:mt-50 lg:mx-10 z-10 bg-yellow-300'></div>
           <h2 data-aos="fade-right" data-aos-duration="3000" data-aos-delay="3000" data-aos-anchor-placement="top-bottom"
           className="before:hidden before:mx-48 before:mt-4 md:before:block before:absolute before:content-[''] before:bg-yellow-300 before:h-5 before:lg:w-210 before:-z-10 md:py-0 py-15 z-11 mt-70 md:mt-80 md:mx-0 mx-2 md:px-40 px-5 md:mb-6
            absolute text-2xl md:text-4xl font-bold  text-white w-full " style={{ textShadow: '0px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 1px 0 #000' }}>
             モアプロは、あなたが最短で稼げるように支援します　
           </h2>
             </div>
-          <div className="flex gap-4 md:mt-125 mt-90 md:pb-0 md:mb-20 pb-15 justify-center text-center text-3xl">
+          <div className="left-0 right-0 md:static fixed z-99 flex gap-4 md:mt-125 mt-140 md:pb-0 md:mb-20 pb-15 justify-center text-center text-3xl">
             <Link href="/recruit" className="text-white z-1 shadow-lg px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-600  rounded-full font-semibold hover:shadow-lg transition-transform hover:scale-105">
               応募する
             </Link>
