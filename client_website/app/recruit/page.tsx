@@ -1,8 +1,10 @@
 "use client";
 
 import { useState, FormEvent } from "react";
+import { useRouter } from "next/navigation";
 
 export default function Recruit() {
+    const router = useRouter();
     const[formData, setFormData] = useState({
         name:'',
         age:'',
@@ -32,6 +34,7 @@ export default function Recruit() {
             if(response.ok && data.success) {
                 setStatus('success');
                 setFormData({name:'',age:'',email:'',phone_number:'',job:'',message:''});
+                router.push("/recruit/thanks")
             } else{
                 setStatus('error')
                 setErrorMessage(data.error || 'エラーが発生しました。');
@@ -87,9 +90,6 @@ export default function Recruit() {
                         <button className="text-white ring ring-orange-800 shadow-lg px-8 hover:scale-110 transition-transform rounded-2xl bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 hover:bg-orange-500 text-xl mt-10 mb-10 px-6 py-2 w-full cursor-pointer justify-self-center">
                            {status === 'loading' ? '...' : '送信'} 
                         </button>
-                        {status === "success" && (
-                            <div className="mb-10 p-4 rounded-lg bg-green-500 border-2 border-green-500 text-white text-lg"> ご連絡ありがとうございます。2日以内に返事いたします。</div>
-                        ) }
                         {status === "error" && (
                             <div className="mb-10 p-4 rounded-lg bg-red-500 border-2 border-red-500 text-white text-lg"> 申し訳ございません。送信できませんでした。{errorMessage} </div>
                         )}

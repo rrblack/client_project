@@ -22,7 +22,7 @@ export default function Home() {
             モアプロは、あなたが最短で稼げるように支援します　
           </h2>
             </div>
-          <div className="left-0 right-0 md:static fixed z-99 flex gap-4 md:mt-125 mt-140 md:pb-0 md:mb-20 pb-15 justify-center text-center text-3xl">
+          <div className="left-0 right-0 z-99 flex gap-4 md:mt-125 mt-120 md:pb-0 md:mb-20 pb-15 justify-center text-center text-3xl">
             <Link href="/recruit" className="text-white z-1 shadow-lg px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-600  rounded-full font-semibold hover:shadow-lg transition-transform hover:scale-105">
               応募する
             </Link>

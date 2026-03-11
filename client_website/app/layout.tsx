@@ -55,14 +55,14 @@ export default function RootLayout({
         <header className="fixed backdrop-blur z-99 shadow-sm w-full">
         {/* ... rest unchanged ... */}
         <nav className="mx-auto md:px-6 md:py-4 p-8 flex items-center justify-center gap-8 ">
-          <Link href="/" className="absolute left-0">
-          <img src="/final_logo.png" className="h-40 w-80 rounded-lg -mx-10 mt-3"/>
+          <Link href="/" className="absolute left-0 h-20">
+          <img src="/final_logo.png" className="h-20 w-40 rounded-lg object-contain"/>
           </Link>
           <ul className="hidden md:flex gap-3 text-xl font-medium ">
-            <li><Link href="/about" className="inline-block shadow-md hover:shadow-lg shadow-yellow-500 hover:scale-110 transition-transform bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-full px-4 py-2" >会社概要</Link></li>
-            <li><Link href="/recruit" className="inline-block shadow-md hover:shadow-lg shadow-yellow-500 hover:scale-110 transition-transform  bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-full px-4 py-2">ライバー応募フォーム</Link></li>
-            <li><Link href="/contact" className="inline-block shadow-md hover:shadow-lg shadow-yellow-500 hover:scale-110 transition-transform bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-full px-4 py-2">問い合わせ</Link></li>
-            <li><Link href="/privacy-policy" className="inline-block shadow-md hover:shadow-lg shadow-yellow-500 hover:scale-110 transition-transform  bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-full px-4 py-2">プライバシーポリシー</Link></li>
+            <li><Link href="/about" className="inline-block shadow-md hover:shadow-lg shadow-yellow-500 hover:scale-110 transition-transform bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-2xl px-4 py-2" >会社概要</Link></li>
+            <li><Link href="/recruit" className="inline-block shadow-md hover:shadow-lg shadow-yellow-500 hover:scale-110 transition-transform  bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-2xl px-4 py-2">ライバー応募フォーム</Link></li>
+            <li><Link href="/contact" className="inline-block shadow-md hover:shadow-lg shadow-yellow-500 hover:scale-110 transition-transform bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-2xl px-4 py-2">問い合わせ</Link></li>
+            <li><Link href="/privacy-policy" className="inline-block shadow-md hover:shadow-lg shadow-yellow-500 hover:scale-110 transition-transform  bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-2xl px-4 py-2">プライバシーポリシー</Link></li>
           </ul>
           <div className=" absolute right-6 ">
           <HamburgerMenu/>
@@ -77,7 +77,7 @@ export default function RootLayout({
         <div className="container mx-auto grid md:grid-cols-3 gap-8">
           <div>
             <div className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent mb-4">
-            <img src="/logo2.png" className="w-60 h-60 -ml-10 -mb-15 -mt-10 md:h-70 md:w-70 md:-ml-10 md:-mt-10 "/>
+            <img src="/logo2.png" className="h-20 w-50 mb-10"/>
             </div>
             <p className="text-sm text-gray-400">BIGO LIVE 公式パートナー事務所</p>
           </div>

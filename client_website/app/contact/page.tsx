@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, FormEvent } from "react";
+import { useRouter } from "next/navigation";
 
 export default function Contact() {
     const [formData, setFormData] = useState({
@@ -10,6 +11,7 @@ export default function Contact() {
     });
     const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
     const [errorMessage, setErrorMessage] = useState('');
+    const router = useRouter();
 
     const handleSubmit = async (e: FormEvent) => {
         e.preventDefault();
@@ -30,6 +32,7 @@ export default function Contact() {
         if (response.ok && data.success) {
             setStatus('success');
             setFormData({name:'', email: '', message:''});
+            router.push("/contact/thanks")
         } else {
             setStatus('error');
             setErrorMessage(data.error || 'エラーが発生しました。');
@@ -63,9 +66,6 @@ export default function Contact() {
             > 
             
             {status === 'loading' ? '...' : '送信'} </button>
-            {status === "success" && (
-                <div className="p-4 rounded-lg bg-green-500 border-2 border-green-500 text-white text-lg"> ご連絡ありがとうございます。2日以内に返事いたします。</div>
-            ) }
             {status === "error" && (
                 <div className="p-4 rounded-lg bg-red-500 border-2 border-red-500 text-white text-lg"> 申し訳ございません。送信できませんでした。{errorMessage} </div>
             )}
