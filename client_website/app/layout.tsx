@@ -5,6 +5,8 @@ import Link from "next/link";
 import AOSProvider from "./components/Aos";
 import HamburgerMenu from "./components/hamburger";
 import Script from 'next/script'
+import { Suspense } from 'react'
+import NavigationEvents from './components/NavigationEvents'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-gray-900">
       <head>
         <Script
           id="gtm-script"
@@ -42,7 +44,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`bg-amber-600 min-h-screen ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`bg-gray-900 min-h-screen flex flex-col ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <noscript>
           <iframe
@@ -53,7 +55,6 @@ export default function RootLayout({
           />
         </noscript>
         <header className="fixed backdrop-blur z-99 shadow-sm w-full">
-        {/* ... rest unchanged ... */}
         <nav className="mx-auto md:px-6 md:py-4 p-8 flex items-center justify-center gap-8 ">
           <Link href="/" className="absolute left-0 h-20">
           <img src="/final_logo.png" className="h-20 w-40 rounded-lg object-contain"/>
@@ -70,7 +71,12 @@ export default function RootLayout({
         </nav>
       </header>
         <AOSProvider>
+        <main className="flex-1 ">
         {children}
+        </main>
+        <Suspense fallback={null}>
+          <NavigationEvents/>
+        </Suspense>
         </AOSProvider>
         {/* Footer */}
       <footer className="bg-gray-900 text-white py-12 px-6">

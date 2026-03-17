@@ -33,10 +33,6 @@ export default function About() {
                         <th>所在地</th>
                         <td>〒951-8067　<br></br>新潟県新潟市中央区本町通7番町<br></br>1098-1 WorkWith本町2F</td>
                     </tr>
-                    <tr className="grid grid-cols-2">
-                        <th>TEL</th>
-                        <td>000-00-0000</td>
-                    </tr>
                 </table>
             </div>
             </div>
