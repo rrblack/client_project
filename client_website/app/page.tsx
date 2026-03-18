@@ -234,25 +234,34 @@ export default function Home() {
                 所属ライバー 
                 </h2>
         <div className='grid md:grid-cols-3 justify-items-center gap-10 '> 
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250" className=' mx-auto text-center mt-5'>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250" className='mt-5'>
               <img className="md:w-125 md:h-125 w-90 h-90 mx-auto object-cover rounded-full" src="/nao.jpg" alt="Nao" />
               <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>Nao</span>
               <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
-              <p> ディズニー大好き！旅行大好き！野球も大好き！いろんなお話ができる子です。笑顔もとっても素敵です！</p>
+              <p> 思わず見惚れる、圧倒的な可愛さ。ディズニーや旅行、野球まで幅広い趣味を持ち、どんな話題でも楽しめる話題豊富なライバーです。
+                <br></br>
+                <br></br>
+                とびきりの笑顔と明るい人柄で、配信はいつも楽しく、あっという間に時間が過ぎていきます。</p>
               </div>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" className=' mx-auto text-center mt-5'>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" className='mt-5'>
               <img className="md:w-125 md:h-125 w-90 h-90 mx-auto object-cover rounded-full" src="/saki.jpg" alt="Saki" />
               <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>さき</span>
               <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
-              <p> 現役看護学生！可愛いものが大好き。リアクションもしっかりしてくれる、相談にも乗ってくれるなんでもできる子です</p>
+              <p> 明るさと優しさで、自然と元気をもらえる存在。現役看護学生として忙しい日々を送りながらも、いつも前向きで、誰にでも寄り添えるあたたかい人柄が魅力のライバーです。
+              <br></br>
+              <br></br>
+                リアクションも豊かで会話も楽しく、相談にも親身に向き合ってくれる、安心感のある配信が人気です。</p>
               </div>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750" className=' mx-auto text-center mt-5'>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750" className='mt-5'>
               <img className="md:w-125 md:h-125 w-90 h-90 mx-auto object-cover rounded-full" src="/aoki.jpg" alt="Aoki" />
               <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>あおきたかはし</span>
-              <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
-              <p> 自称変な人ですが、とても優しくて思いやりがある方です。配信枠もいつも楽しく盛り上がっています！</p>
+              <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl text-red-300 text-xl mt-5'>
+              <p> 気づけば、また会いたくなる存在。少し不思議で、でもとても優しくて。その人柄に惹かれ、多くのファンが集まるライバーです。
+                <br></br>
+              <br></br>
+                配信はいつも温かく、自然と笑顔になれる空間になっています。</p>
               </div>
             </div>
           </div>
