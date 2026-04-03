@@ -48,14 +48,14 @@ export default function Recruit() {
 
     return(
         <section className="bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200 overflow-hidden ">
-            <div className="relative w-full h-65 pt-16 md:pt-19 flex justify-center">
-                <div data-aos="fade-right" className="text-5xl md:text-6xl text-black font-semibold after:content-[''] after:block after:w-5 after:bg-orange-500 after:h-1 after:mt-4 after:px-10 after:mx-auto pt-20 z-1">ライバー応募</div>
+            <div className="relative w-full h-65 pt-16 flex justify-center">
+                <div data-aos="fade-right" className="text-5xl text-black font-semibold after:content-[''] after:block after:w-5 after:bg-orange-500 after:h-1 after:mt-4 after:px-10 after:mx-auto pt-20 z-1">ライバー応募</div>
             <img className="absolute w-full h-full rounded-sm object-cover" src="/banner.png" alt="" />
             </div>
-            <div className="bg-white rounded-2xl md:w-full shadow-lg mx-auto md:pt-12 pt-24 md:mt-19 ">
-                <div className="mx-auto grid grid-col gap-4 w-85 md:w-150">
-                    <p className="text-center text-xl mt-10 md:mt-0 text-black font-semibold ">ライバーへのご応募にご興味をお持ちいただき、誠にありがとうございます。ぜひ一緒にお仕事ができれば嬉しく思います。</p> <p className="text-center text-xl mt-10 md:mt-0 text-black font-semibold ">下記の必要事項をご入力のうえご送信ください。内容を確認後、2営業日以内 にご連絡いたします。ご一緒に活動できることを楽しみにしております。</p>
-                    <div className="md:w-full">
+            <div className="bg-white rounded-2xl shadow-lg mx-auto w-full px-10 pt-24 pb-10">
+                <div className="mx-auto grid grid-col gap-4 w-full">
+                    <p className="text-center text-xl mt-10 text-black font-semibold ">ライバーへのご応募にご興味をお持ちいただき、誠にありがとうございます。ぜひ一緒にお仕事ができれば嬉しく思います。</p> <p className="text-center text-xl mt-10 text-black font-semibold ">下記の必要事項をご入力のうえご送信ください。内容を確認後、2営業日以内 にご連絡いたします。ご一緒に活動できることを楽しみにしております。</p>
+                    <div className="w-full">
                     <form onSubmit={handleSubmit} className=" flex flex-col  text-black gap-5 mt-12  font-semibold">
                         <label className="text-lg text-black before:p-2 before:content-['*'] before:text-red-500 ">
                             氏名

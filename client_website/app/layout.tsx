@@ -44,8 +44,9 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`bg-gray-900 min-h-screen flex flex-col ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`bg-gray-900 min-h-screen flex flex-col overflow-x-hidden ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <div className="object-center max-w-md mx-auto">
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-MM6X2DKL"
@@ -54,17 +55,12 @@ export default function RootLayout({
             style={{ display: 'none', visibility: 'hidden' }}
           />
         </noscript>
-        <header className="fixed backdrop-blur z-99 shadow-sm w-full">
-        <nav className="mx-auto md:px-6 md:py-4 p-8 flex items-center justify-center gap-8 ">
+      
+        <header className="fixed backdrop-blur z-99 shadow-sm w-md">
+        <nav className="mx-auto p-8 flex items-center justify-center gap-8 ">
           <Link href="/" className="absolute left-0 h-20">
           <img src="/final_logo.png" className="h-20 w-40 rounded-lg object-contain"/>
           </Link>
-          <ul className="hidden md:flex gap-3 text-xl font-medium ">
-            <li><Link href="/about" className="inline-block shadow-md hover:shadow-lg shadow-yellow-500 hover:scale-110 transition-transform bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-2xl px-4 py-2" >会社概要</Link></li>
-            <li><Link href="/recruit" className="inline-block shadow-md hover:shadow-lg shadow-yellow-500 hover:scale-110 transition-transform  bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-2xl px-4 py-2">ライバー応募フォーム</Link></li>
-            <li><Link href="/contact" className="inline-block shadow-md hover:shadow-lg shadow-yellow-500 hover:scale-110 transition-transform bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-2xl px-4 py-2">問い合わせ</Link></li>
-            <li><Link href="/privacy-policy" className="inline-block shadow-md hover:shadow-lg shadow-yellow-500 hover:scale-110 transition-transform  bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-2xl px-4 py-2">プライバシーポリシー</Link></li>
-          </ul>
           <div className=" absolute right-6 ">
           <HamburgerMenu/>
           </div>
@@ -80,7 +76,7 @@ export default function RootLayout({
         </AOSProvider>
         {/* Footer */}
       <footer className="bg-gray-900 text-white py-12 px-6">
-        <div className="container mx-auto grid md:grid-cols-3 gap-8">
+        <div className="container mx-auto grid gap-8">
           <div>
             <div className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent mb-4">
             <img src="/logo2.png" className="h-20 w-50 mb-10"/>
@@ -116,6 +112,7 @@ export default function RootLayout({
           <p>© {new Date().getFullYear()} 株式会社モアソビ. All rights reserved. </p>
         </div>
       </footer>
+      </div>
       </body>
     </html>
   );

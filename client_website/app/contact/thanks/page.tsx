@@ -12,7 +12,7 @@ export default function Thanks() {
       <div className="absolute bottom-[-60px] right-[-60px] w-96 h-96 rounded-full bg-pink-300 opacity-30 blur-3xl pointer-events-none" />
 
       <div data-aos="fade-up" className="relative z-10 flex flex-col items-center gap-8 text-center">
-        <h1 className="text-5xl md:text-6xl font-bold text-gray-800 leading-tight">
+        <h1 className="text-5xl font-bold text-gray-800 leading-tight">
           お問い合わせ<span className="text-orange-500">ありがとうございます</span>
         </h1>
 

@@ -7,22 +7,22 @@ export default function Home() {
     <div className="min-h-screen select-none ">
   <Banner/>
        {/* Hero */}
-      <section className="relative mx-auto min-h-screen md:flex md:items-center bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200 overflow-hidden md:pt-38  ">
-        <img className="absolute w-full h-full mx-auto object-cover rounded-sm" src="/S__8011843.jpg" alt="" /> 
-        <div className="md:container md:mx-auto md:text-center ">
-          <div className='relative md:py-0 py-25'>
-            <h1 data-aos="fade-right" data-aos-duration="3000" className="border-red-700 md:mt-40  
-            z-11 mt-45 mx-5 absolute text-4xl md:text-7xl font-bold md:w-auto w-auto  
+      <section className="relative mx-auto min-h-screen bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200 overflow-hidden">
+        <img className="absolute w-full h-full mx-auto object-cover rounded-sm" src="/S__8011843.jpg" alt="" />
+        <div className="container mx-auto text-center">
+          <div className='relative py-25'>
+            <h1 data-aos="fade-right" data-aos-duration="3000" className="border-red-700
+            z-11 mt-45 mx-5 absolute text-4xl font-bold w-auto
             text-white text-shadow-amber-100 bg-clip-text" style={{ textShadow: '1px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 2px 0 #000' }}>
-           がんばった時間が、<br className="md:hidden" /> 収入になる</h1>
-           <div data-aos="fade-right" data-aos-duration="3000" className='absolute lg:h-10 lg:w-250 lg:mt-50 lg:mx-10 z-10 bg-yellow-300'></div>
+           がんばった時間が、<br /> 収入になる</h1>
+           <div data-aos="fade-right" data-aos-duration="3000" className='absolute z-10 bg-yellow-300'></div>
           <h2 data-aos="fade-right" data-aos-duration="3000" data-aos-delay="3000" data-aos-anchor-placement="top-bottom"
-          className="before:hidden before:mx-48 before:mt-4 md:before:block before:absolute before:content-[''] before:bg-yellow-300 before:h-5 before:lg:w-210 before:-z-10 md:py-0 py-15 z-11 mt-70 md:mt-80 md:mx-0 mx-2 md:px-40 px-5 md:mb-6
-           absolute text-2xl md:text-4xl font-bold  text-white w-full " style={{ textShadow: '0px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 1px 0 #000' }}>
-            モアプロは、あなたが最短で稼げるように支援します　
+          className="before:hidden before:mx-48 before:mt-4 before:absolute before:content-[''] before:bg-yellow-300 before:h-5 before:-z-10 py-15 z-11 mt-70 mx-2 px-5
+           absolute text-2xl font-bold  text-white w-full " style={{ textShadow: '0px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 1px 0 #000' }}>
+            モアプロは、あなたが最短で稼げるように支援します
           </h2>
             </div>
-          <div className="left-0 right-0 z-99 flex gap-4 md:mt-125 mt-120 md:pb-0 md:mb-20 pb-15 justify-center text-center text-3xl">
+          <div className="left-0 right-0 z-99 flex gap-4 mt-120 pb-15 justify-center text-center text-3xl">
             <Link href="/recruit" className="text-white z-1 shadow-lg px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-600  rounded-full font-semibold hover:shadow-lg transition-transform hover:scale-105">
               応募する
             </Link>
@@ -35,8 +35,8 @@ export default function Home() {
 
       {/*不安*/}
       <section className='py-20 px-6 bg-white overflow-hidden'>
-      <h1 data-aos="fade-up" data-aos-duration="1000" className='md:text-5xl text-3xl text-black font-bold text-center pb-2'>こんな不安、ありませんか？</h1>
-      <div className='flex justify-center items-center mx-auto bg-gray-300/10 md:w-125 md:h-100 rounded-xl shadow-md mb-10 mt-10 p-7'>
+      <h1 data-aos="fade-up" data-aos-duration="1000" className='text-3xl text-black font-bold text-center pb-2'>こんな不安、ありませんか？</h1>
+      <div className='flex justify-center items-center mx-auto bg-gray-300/10 rounded-xl shadow-md mb-10 mt-10 p-7'>
         <div className='text-black gap-4 text-2xl'>
           <ul className=''>
             <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="250" className="before:content-['〆'] before:p-2 before:text-blue-500 ">
@@ -57,14 +57,14 @@ export default function Home() {
           </ul>
         </div>
       </div>
-      <h1 data-aos="fade-up" data-aos-duration="1000" className='md:text-3xl text-2xl text-orange-500 font-bold text-center pb-2'>その悩み、BIGO LIVEなら解決できます。</h1>
+      <h1 data-aos="fade-up" data-aos-duration="1000" className='text-2xl text-orange-500 font-bold text-center pb-2'>その悩み、BIGO LIVEなら解決できます。</h1>
       </section>
 
       {/* About */}
       <section className="py-20 px-6 bg-white overflow-hidden">
-        <div data-aos="fade-up" data-aos-duration="3000" className="container mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div data-aos="fade-up" data-aos-duration="3000" className="container mx-auto grid gap-12 items-center">
           <div>
-            <h2 className="md:text-4xl text-3xl font-bold mb-6 text-black">モアプロとは？</h2>
+            <h2 className="text-3xl font-bold mb-6 text-black">モアプロとは？</h2>
             <p className="text-black mb-4 text-lg">
              モアプロは、ライブ配信という文化が生まれた時から、配信者に寄り添いプロデュース・マネジメントを行ってきました。
             </p>
@@ -86,10 +86,10 @@ export default function Home() {
 
         {/* メリット */}
       <section className='py-20 px-6 bg-white -mb-15 overflow-hidden'>
-        <h1 data-aos="fade-up" data-aos-duration="1000" className='md:text-5xl text-3xl text-black font-semibold text-center'>モアプロのメリット</h1>
-        <div className='container mx-auto grid md:grid-cols-3 p-4 items-start gap-12 my-12 '>
+        <h1 data-aos="fade-up" data-aos-duration="1000" className='text-3xl text-black font-semibold text-center'>モアプロのメリット</h1>
+        <div className='container mx-auto grid p-4 items-start gap-12 my-12 '>
           <div className='p-10'>
-            <h1 data-aos="fade-up" data-aos-duration="1000" className='gap-4 text-4xl text-black font-semibold text-center h-22'>常に最新の情報を<br className="hidden md:block" />ご提供</h1>
+            <h1 data-aos="fade-up" data-aos-duration="1000" className='gap-4 text-4xl text-black font-semibold text-center h-22'>常に最新の情報を<br />ご提供</h1>
             <div data-aos="fade-up" data-aos-duration="1000" className="flex justify-center items-center mx-auto my-8 w-50 h-50  object-cover rounded-full bg-pink-500 "> <span className='text-white text-8xl '> 1</span></div>
             <p data-aos="fade-up" data-aos-duration="1000" className='py-4 text-xl text-black font-semibold '>配信者として活動する業界に精通したマネージャーがみなさんをサポートします。</p>
             </div>
@@ -108,16 +108,16 @@ export default function Home() {
 
       {/*代表メッセージ*/}
       <section className='py-20 px-6 bg-gradient-to-bl from-orange-200 via-orange-100 to-yellow-100 pb-10 overflow-hidden'>
-        <h1 data-aos="fade-down" data-aos-duration="2000" className='md:text-5xl text-4xl text-black font-bold text-center p-4'> 代表メッセージ</h1>
-        <img data-aos="fade-down" data-aos-duration="2000" className="md:w-100 md:h-100 mx-auto object-cover rounded-md shadow-md" src="/daihyou.png" alt="" /> 
-        <h2 data-aos="fade-right" data-aos-duration="2000" className='md:text-3xl text-2xl text-black  text-center p-4'> 代表 永井大地より </h2>
-        <div className='flex mx-auto justify-center items-center bg-white/40 md:w-200 md:h-150 p-8 gap-4 rounded-xl shadow-md'>
-        <div data-aos="fade-up" data-aos-duration="2000" className='w-150 text-center text-black text-xl p-6 container '>
+        <h1 data-aos="fade-down" data-aos-duration="2000" className='text-4xl text-black font-bold text-center p-4'> 代表メッセージ</h1>
+        <img data-aos="fade-down" data-aos-duration="2000" className="mx-auto object-cover rounded-md shadow-md" src="/daihyou.png" alt="" />
+        <h2 data-aos="fade-right" data-aos-duration="2000" className='text-2xl text-black  text-center p-4'> 代表 永井大地より </h2>
+        <div className='flex mx-auto justify-center items-center bg-white/40 p-8 gap-4 rounded-xl shadow-md'>
+        <div data-aos="fade-up" data-aos-duration="2000" className='w-full text-center text-black text-xl p-6'>
           <p className=''>ライブ配信で大切なのは、</p>
           <br></br>
-          <p className=''>“才能”よりも</p>
+          <p className=''>"才能"よりも</p>
           <br></br>
-          <p className='font-bold'>“正しいやり方を知っているかどうか” です。</p>
+          <p className='font-bold'>"正しいやり方を知っているかどうか" です。</p>
           <br></br>
           <p className=''>私はこれまで、</p>
           <br></br>
@@ -147,7 +147,7 @@ export default function Home() {
       <section className='py-20 px-6 bg-white overflow-hidden'>
         <h1 data-aos="fade-up" data-aos-duration="1000" className='text-5xl text-black font-bold text-center pb-2'>収入イメージ</h1>
         <h2 data-aos="fade-up" data-aos-duration="1000" className='text-2xl text-black font-bold text-center p-8'> BIGO LIVEなら―― </h2>
-        <div className='mx-auto flex flex-col md:flex-row items-center justify-center gap-6 pt-6 w-full h-full p-4'>
+        <div className='mx-auto flex flex-col items-center justify-center gap-6 pt-6 w-full h-full p-4'>
           <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="250" className='flex justify-center items-center bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 w-75 h-50 rounded-xl p-4 shadow-lg'>
             <div className=''>
             <p data-aos="fade-right" data-aos-duration="1000" className='text-2xl text-center font-semibold'>未経験スタート </p>
@@ -167,13 +167,13 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <p data-aos="fade-up" data-aos-duration="1000" className='text-2xl text-black text-center p-5 w-100 justify-self-center'> まずは「時給収入」から無理なくステップアップできます。</p>
+        <p data-aos="fade-up" data-aos-duration="1000" className='text-2xl text-black text-center p-5 w-full justify-self-center'> まずは「時給収入」から無理なくステップアップできます。</p>
       </section>
 
       {/* この人にピッタリ */}
       <section className='bg-white py-20 px-6 overflow-hidden -mt-20'>
-        <h1 data-aos="fade-up" data-aos-duration="1000" className='md:text-5xl text-3xl text-black text-center font-bold'> モアプロはこんな人にピッタリ</h1>
-        <div className='flex mx-auto justify-center items-center shadow-md rounded-xl bg-gray-300/20 p-4 mt-10 mb-10 md:w-125 md:h-100 '>
+        <h1 data-aos="fade-up" data-aos-duration="1000" className='text-3xl text-black text-center font-bold'> モアプロはこんな人にピッタリ</h1>
+        <div className='flex mx-auto justify-center items-center shadow-md rounded-xl bg-gray-300/20 p-4 mt-10 mb-10'>
           <div className='flex justify-center items-center text-2xl'>
             <ul className='text-black text-center　'>
               <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="250" className="before:content-['✔'] before:p-2 before:text-green-500">
@@ -202,9 +202,9 @@ export default function Home() {
 
       {/* 応募 */}
       <section className='bg-white py-20 px-6 overflow-hidden -mt-20'>
-        <h1 data-aos="fade-up" data-aos-duration="1000" className='md:text-5xl text-3xl text-black text-center font-bold mx-auto'>応募からデビューまで</h1>
-        <h1 data-aos="fade-up" data-aos-duration="1000" className='md:text-5xl text-3xl text-black text-center font-bold mx-auto p-4 mt-4'>たった3ステップ </h1>
-        <div className='flex md:flex-row flex-col mx-auto justify-center items-center md:w-200 mt-10'>
+        <h1 data-aos="fade-up" data-aos-duration="1000" className='text-3xl text-black text-center font-bold mx-auto'>応募からデビューまで</h1>
+        <h1 data-aos="fade-up" data-aos-duration="1000" className='text-3xl text-black text-center font-bold mx-auto p-4 mt-4'>たった3ステップ </h1>
+        <div className='flex flex-col mx-auto justify-center items-center mt-10'>
           <div className='flex flex-col justify-center items-center'>
           <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="250" className='flex flex-col justify-center items-center text-8xl mx-auto object-cover bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-full w-50 h-50 text-center'>
           1
@@ -231,11 +231,11 @@ export default function Home() {
       {/* 所属ライバー */}
       <section className="py-20 px-6 bg-gradient-to-bl from-pink-200 via-orange-100 to-yellow-100 overflow-hidden">
         <h2 className='relative text-5xl text-orange-500 font-bold text-center mb-10 '>
-                所属ライバー 
+                所属ライバー
                 </h2>
-        <div className='grid md:grid-cols-3 justify-items-center gap-10 '> 
+        <div className='grid justify-items-center gap-10 '>
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250" className='mt-5'>
-              <img className="md:w-125 md:h-125 w-90 h-90 mx-auto object-cover rounded-full" src="/nao.jpg" alt="Nao" />
+              <img className="w-90 h-90 mx-auto object-cover rounded-full" src="/nao.jpg" alt="Nao" />
               <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>Nao</span>
               <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
               <p> 思わず見惚れる、圧倒的な可愛さ。ディズニーや旅行、野球まで幅広い趣味を持ち、どんな話題でも楽しめる話題豊富なライバーです。
@@ -245,7 +245,7 @@ export default function Home() {
               </div>
             </div>
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" className='mt-5'>
-              <img className="md:w-125 md:h-125 w-90 h-90 mx-auto object-cover rounded-full" src="/saki.jpg" alt="Saki" />
+              <img className="w-90 h-90 mx-auto object-cover rounded-full" src="/saki.jpg" alt="Saki" />
               <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>さき</span>
               <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
               <p> 明るさと優しさで、自然と元気をもらえる存在。現役看護学生として忙しい日々を送りながらも、いつも前向きで、誰にでも寄り添えるあたたかい人柄が魅力のライバーです。
@@ -255,7 +255,7 @@ export default function Home() {
               </div>
             </div>
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750" className='mt-5'>
-              <img className="md:w-125 md:h-125 w-90 h-90 mx-auto object-cover rounded-full" src="/aoki.jpg" alt="Aoki" />
+              <img className="w-90 h-90 mx-auto object-cover rounded-full" src="/aoki.jpg" alt="Aoki" />
               <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>あおきたかはし</span>
               <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl text-red-300 text-xl mt-5'>
               <p> 気づけば、また会いたくなる存在。少し不思議で、でもとても優しくて。その人柄に惹かれ、多くのファンが集まるライバーです。
@@ -307,7 +307,7 @@ export default function Home() {
           <p data-aos="fade-up" data-aos-duration="1000" className="text-3xl mb-8 mx-auto font-bold">BIGO LIVE × モアプロなら</p>
           <p data-aos="fade-up" data-aos-duration="1000" className="text-3xl mb-8  mx-auto font-bold">&quot;誰でも、ちゃんと稼げる配信者になれる&quot;</p>
           <p data-aos="fade-up" data-aos-duration="1000" className="text-xl mb-8 mx-auto font-bold">まずは気軽にご相談ください。</p>
-          <div className="flex gap-4  md:pb-0 pb-15 justify-center text-center text-3xl">
+          <div className="flex gap-4 pb-15 justify-center text-center text-3xl">
             <Link data-aos="fade-right" data-aos-duration="1000" href="/recruit" className="text-xl  shadow-lg px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full font-semibold hover:shadow-lg transition-transform hover:scale-105">
               今すぐ無料で応募する
             </Link>
