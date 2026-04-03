@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function HamburgerMenu(){
     const [open, openSetter] = useState(false)
     return (
-    <div className="">
+    <div className="md:mx-0 -mx-20">
         <button className="cursor-pointer z-50 grid grid-cols-1 gap-1.5 " onClick={() => openSetter(!open)}> 
         <span className={`block h-0.5 w-7 bg-black transition-all duration-300 ${open ? "rotate-45 translate-y-2" :" "}`}></span>
         <span className={`block h-0.5 w-7 bg-black transition-all duration-300 ${open ? "opacity-0" :" "}`}></span>

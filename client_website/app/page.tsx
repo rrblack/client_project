@@ -7,11 +7,11 @@ export default function Home() {
     <div className="min-h-screen select-none ">
   <Banner/>
        {/* Hero */}
-      <section className="relative mx-auto min-h-screen bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200 overflow-hidden">
-        <div className='absolute w-full bottom-0 left-0 overflow-hidden p-4'>
-          <div className='text-2xl text-orange-500 tracking-widest scrolling font-bold'>
-            <span> MOAPRO · MOAPRO · MOAPRO · MOAPRO · MOAPRO · MOAPRO · </span>
-            <span> MOAPRO · MOAPRO · MOAPRO · MOAPRO · MOAPRO · MOAPRO · </span>
+      <section className="relative mx-auto min-h-screen  overflow-hidden bg-white">
+        <div className='absolute w-full bottom-0 left-0 overflow-hidden'>
+          <div className='text-2xl text-black tracking-widest scrolling font-bold'>
+            <span>Moasobi Project ・ Moasobi Project ・ Moasobi Project ・ Moasobi Project ・ Moasobi Project ・ Moasobi Project ・ </span>
+            <span>Moasobi Project ・ Moasobi Project ・ Moasobi Project ・ Moasobi Project ・ Moasobi Project ・ Moasobi Project ・ </span>
           </div>
         </div>
       </section>
