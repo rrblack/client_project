@@ -7,7 +7,20 @@ export default function Home() {
     <div className="min-h-screen select-none ">
   <Banner/>
        {/* Hero */}
-      <section className="relative mx-auto min-h-screen  overflow-hidden bg-white">
+      <section className="relative mx-auto min-h-screen  overflow-hidden bg-white ">
+      <div className='absolute bg-yellow-300 w-25 h-25 mt-44 rotate-12'></div>
+      <div className='absolute bg-black/20 w-25 h-25 mt-44 mx-2 rotate-12'></div>
+      <div className='absolute bg-pink-400 w-25 h-25 mt-69 rounded-full mx-94 rotate-12'></div>
+      <div className='absolute bg-orange-500/40 w-25 h-25 mt-69 rounded-full mx-92 rotate-12'> </div>
+      <div className='absolute z-99 mt-150 w-0 h-0 rotate-90 scale-85 border-l-[50px] border-r-[50px] border-b-[100px] border-l-transparent border-r-transparent border-b-blue-500'></div>
+      <div className='absolute z-99 mt-150 mx-2 w-0 h-0 rotate-90 scale-85 border-l-[50px] border-r-[50px] border-b-[100px] border-l-transparent border-r-transparent border-b-black/20'></div>  
+      <p className='absolute inset-0 text-black text-6xl mt-24 text-center'> ライブ配信で<br></br>生きていく</p>
+      <img alt='woman live streaming' className='absolute w-full mt-65 scale-145 -mx-4' src="main_photo.png"/>
+      
+      <div className='relative flex justify-center mt-185'>
+      <div className='absolute -top-8 bg-green-500 rounded-2xl w-40 font-sans text-center object-center py-1 scale-120 z-99'> まずは気軽に面談</div>
+      <button className='bg-green-700 rounded-4xl w-65 h-13 font-sans object-center py-1 cursor-pointer text-2xl font-bold scale-120'>LINEで応募する</button>
+      </div>
         <div className='absolute w-full bottom-0 left-0 overflow-hidden'>
           <div className='text-2xl text-black tracking-widest scrolling font-bold'>
             <span>Moasobi Project ・ Moasobi Project ・ Moasobi Project ・ Moasobi Project ・ Moasobi Project ・ Moasobi Project ・ </span>
