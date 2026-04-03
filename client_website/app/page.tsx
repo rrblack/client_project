@@ -8,27 +8,10 @@ export default function Home() {
   <Banner/>
        {/* Hero */}
       <section className="relative mx-auto min-h-screen bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200 overflow-hidden">
-        <img className="absolute w-full h-full mx-auto object-cover rounded-sm" src="/S__8011843.jpg" alt="" />
-        <div className="container mx-auto text-center">
-          <div className='relative py-25'>
-            <h1 data-aos="fade-right" data-aos-duration="3000" className="border-red-700
-            z-11 mt-45 mx-5 absolute text-4xl font-bold w-auto
-            text-white text-shadow-amber-100 bg-clip-text" style={{ textShadow: '1px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 2px 0 #000' }}>
-           がんばった時間が、<br /> 収入になる</h1>
-           <div data-aos="fade-right" data-aos-duration="3000" className='absolute z-10 bg-yellow-300'></div>
-          <h2 data-aos="fade-right" data-aos-duration="3000" data-aos-delay="3000" data-aos-anchor-placement="top-bottom"
-          className="before:hidden before:mx-48 before:mt-4 before:absolute before:content-[''] before:bg-yellow-300 before:h-5 before:-z-10 py-15 z-11 mt-70 mx-2 px-5
-           absolute text-2xl font-bold  text-white w-full " style={{ textShadow: '0px 1px 0 #000, -2px -1px 0 #000, 1px -1px 0 #000, -2px 1px 0 #000' }}>
-            モアプロは、あなたが最短で稼げるように支援します
-          </h2>
-            </div>
-          <div className="left-0 right-0 z-99 flex gap-4 mt-120 pb-15 justify-center text-center text-3xl">
-            <Link href="/recruit" className="text-white z-1 shadow-lg px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-600  rounded-full font-semibold hover:shadow-lg transition-transform hover:scale-105">
-              応募する
-            </Link>
-            <Link href="/contact" className="text-white z-1 shadow-lg px-8 py-4 bg-gradient-to-l from-green-500 via-green-300 to-green-500 rounded-full font-semibold hover:bg-green-500 hover:shadow-lg transition-transform hover:scale-105">
-              相談する
-            </Link>
+        <div className='absolute w-full bottom-0 left-0 overflow-hidden p-4'>
+          <div className='text-2xl text-orange-500 tracking-widest scrolling font-bold inline-block'>
+            <span> MOAPRO · MOAPRO · MOAPRO · MOAPRO · MOAPRO · MOAPRO · </span>
+            <span> MOAPRO · MOAPRO · MOAPRO · MOAPRO · MOAPRO · MOAPRO · </span>
           </div>
         </div>
       </section>

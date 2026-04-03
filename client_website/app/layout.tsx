@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Zen_Kaku_Gothic_New } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import AOSProvider from "./components/Aos";
@@ -16,6 +16,12 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const zenKaku = Zen_Kaku_Gothic_New({
+  variable: "--font-zen-kaku",
+  subsets: ["latin"],
+  weight: "900"
 });
 
 export const metadata: Metadata = {
@@ -44,7 +50,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`bg-gray-900 min-h-screen flex flex-col overflow-x-hidden ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`bg-gray-900 min-h-screen flex flex-col overflow-x-hidden ${geistSans.variable} ${geistMono.variable} ${zenKaku.variable} antialiased`}
       >
         <div className="object-center max-w-md mx-auto">
         <noscript>
