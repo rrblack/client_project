@@ -7,14 +7,44 @@ export default function Home() {
     <div className="min-h-screen select-none ">
   <Banner/>
        {/* Hero */}
-      <section className="relative mx-auto min-h-screen bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-200 overflow-hidden">
-        <div className='absolute w-full bottom-0 left-0 overflow-hidden p-4'>
-          <div className='text-2xl text-orange-500 tracking-widest scrolling font-bold inline-block'>
-            <span> MOAPRO · MOAPRO · MOAPRO · MOAPRO · MOAPRO · MOAPRO · </span>
-            <span> MOAPRO · MOAPRO · MOAPRO · MOAPRO · MOAPRO · MOAPRO · </span>
+      <section className="relative mx-auto min-h-screen overflow-hidden bg-white circle-pattern">
+      <div className='px-4 mt-18 mb-8'>
+        <img alt='woman live streaming' className='w-full h-full object-fill rounded-2xl' src="actually_main_photo.jpg"/>
+      </div>
+
+      {/* Shapes */}
+      {/* <div className='absolute bg-yellow-300 w-25 h-25 mt-44 rotate-12'></div>
+      <div className='absolute bg-black/20 w-25 h-25 mt-44 mx-2 rotate-12'></div>
+      <div className='absolute bg-pink-400 w-25 h-25 mt-69 rounded-full mx-94 rotate-12'></div>
+      <div className='absolute bg-orange-500/40 w-25 h-25 mt-69 rounded-full mx-92 rotate-12'> </div>
+      <div className='absolute z-50 mt-150 w-0 h-0 rotate-90 scale-85 border-l-[50px] border-r-[50px] border-b-[100px] border-l-transparent border-r-transparent border-b-blue-500'></div>
+      <div className='absolute z-99 mt-150 mx-2 w-0 h-0 rotate-90 scale-85 border-l-[50px] border-r-[50px] border-b-[100px] border-l-transparent border-r-transparent border-b-black/20'></div>   */}
+      <p className=' inset-0 text-black text-6xl text-center font-black'> ライブ配信で<br></br>生きていく</p>
+      <p className=' inset-0 text-black text-lg text-center font-black mt-8'> 頑張った時間が収入になる！<br></br>
+      モアプロはあなたが最短で稼げるように支援します</p>
+
+      {/* LINE button function */}
+      <div data-aos="fade-up" data-aos-duration="800" className='relative flex items-center justify-center mt-6 bg-yellow-200 h-35 overflow-visible '>
+      {/* Speech bubble */}
+      <div className='z-50 absolute top-3 bg-white rounded-2xl w-40 font-sans text-center object-center py-1 scale-120 text-green-500 outline-1 outline-black/20 shadow-xl'> まずは気軽に面談</div>
+       {/* Speech bubble arrow */}
+      <div className='z-50  absolute border-l-[12px] border-r-[12px] border-b-[12px] border-t-[12px] border-l-transparent border-b-transparent border-r-transparent border-t-white -mt-7'> </div>
+      {/* LINE button start*/}
+      <button className='flex items-center justify-center gap-2 bg-gradient-to-r from-[#008234] to-[#5DD68D] rounded-4xl w-65 h-13 font-sans cursor-pointer text-xl text-white font-bold scale-120'> <img width="36" height="36" src="https://img.icons8.com/color/50/line-me.png" alt="line-me"/>  LINEで応募する <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6">
+   <  path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+      </svg>
+    </button>
+    {/* LINE button end*/}
+      </div>
+      {/*LINE button function end */}
+        <div className='absolute w-full bottom-0 left-0 '>
+          <div className='text-2xl text-black tracking-widest scrolling font-bold'>
+            <span>Moasobi Project ・ Moasobi Project ・ Moasobi Project ・ Moasobi Project ・ Moasobi Project ・ Moasobi Project ・ </span>
+            <span>Moasobi Project ・ Moasobi Project ・ Moasobi Project ・ Moasobi Project ・ Moasobi Project ・ Moasobi Project ・ </span>
           </div>
         </div>
       </section>
+      {/* Section end */}
 
       {/*不安*/}
       <section className='py-20 px-6 bg-white overflow-hidden'>
