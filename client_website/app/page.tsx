@@ -4,7 +4,7 @@ import Banner from './components/banner'
 
 export default function Home() {
   return (
-    <div className="min-h-screen select-none ">
+    <div className="select-none">
   <Banner/>
        {/* Hero */}
       <section className="relative mx-auto min-h-screen overflow-hidden bg-white circle-pattern">
@@ -19,12 +19,12 @@ export default function Home() {
       <div className='absolute bg-orange-500/40 w-25 h-25 mt-69 rounded-full mx-92 rotate-12'> </div>
       <div className='absolute z-50 mt-150 w-0 h-0 rotate-90 scale-85 border-l-[50px] border-r-[50px] border-b-[100px] border-l-transparent border-r-transparent border-b-blue-500'></div>
       <div className='absolute z-99 mt-150 mx-2 w-0 h-0 rotate-90 scale-85 border-l-[50px] border-r-[50px] border-b-[100px] border-l-transparent border-r-transparent border-b-black/20'></div>   */}
-      <p className=' inset-0 text-black text-6xl text-center font-black'> ライブ配信で<br></br>生きていく</p>
+      <p className=' inset-0 text-black text-5xl text-center font-black'> ライブ配信で<br></br>生きていく</p>
       <p className=' inset-0 text-black text-lg text-center font-black mt-8'> 頑張った時間が収入になる！<br></br>
       モアプロはあなたが最短で稼げるように支援します</p>
 
       {/* LINE button function */}
-      <div data-aos="fade-up" data-aos-duration="800" className='relative flex items-center justify-center mt-6 bg-yellow-200 h-35 overflow-visible '>
+      <div data-aos="fade-up" data-aos-duration="800" className='relative flex items-center justify-center mt-20 bg-gradient-to-br from-yellow-100 to-yellow-400 h-35 overflow-visible '>
       {/* Speech bubble */}
       <div className='z-50 absolute top-3 bg-white rounded-2xl w-40 font-sans text-center object-center py-1 scale-120 text-green-500 outline-1 outline-black/20 shadow-xl'> まずは気軽に面談</div>
        {/* Speech bubble arrow */}

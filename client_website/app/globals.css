@@ -52,7 +52,7 @@ body {
 .scrolling {
 display: flex;
 width: max-content;
-animation: text-scroll 3s linear infinite;
+animation: text-scroll 18s linear infinite;
 white-space: nowrap;
 }
 

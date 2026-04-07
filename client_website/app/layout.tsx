@@ -35,7 +35,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-gray-900">
+    <html lang="en" className="bg-white">
       <head>
         <Script
           id="gtm-script"
@@ -62,7 +62,7 @@ export default function RootLayout({
           />
         </noscript>
       
-        <header className="fixed backdrop-blur z-99 shadow-sm w-md">
+        <header className="fixed backdrop-blur bg-white/70 z-99 shadow-sm md:w-md w-full">
         <nav className="mx-auto p-8 flex items-center justify-center gap-8 ">
           <Link href="/" className="absolute left-0 h-20">
           <img src="/final_logo.png" className="h-20 w-40 rounded-lg object-contain"/>
