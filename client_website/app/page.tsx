@@ -104,6 +104,50 @@ export default function Home() {
         </div>
       </section>
 
+      {/* 所属ライバー */}
+      <section className="py-20 px-6 bg-gradient-to-bl from-pink-200 via-orange-100 to-yellow-100 overflow-hidden">
+        <p data-aos="fade-up" data-aos-duration="1000" className='text-sm text-black tracking-wider font-bold text-center pb-2'>VOICE</p>
+        <p className='relative text-3xl text-orange-500 font-bold text-center mb-4 '>所属ライバーの声</p>
+        <div className='flex flex-col justify-items-center  '>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250" className='flex flex-row mt-5'>
+              <div className='flex flex-col items-center justify-center mr-4'>
+              <img className="w-90 object-cover rounded-full" src="/nao.jpg" alt="Nao" />
+              <span className='block text-md text-orange-500 font-bold text-center'>Nao</span>
+              </div>
+              <div className='bg-white p-6 text-red-300 text-lg mt-5 rounded-2xl'>
+              <p> 思わず見惚れる、圧倒的な可愛さ。ディズニーや旅行、野球まで幅広い趣味を持ち、どんな話題でも楽しめる話題豊富なライバーです。
+                <br></br>
+                <br></br>
+                とびきりの笑顔と明るい人柄で、配信はいつも楽しく、あっという間に時間が過ぎていきます。</p>
+              </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" className='flex flex-row mt-5'>
+              <div className='flex flex-col items-center justify-center mr-4'>
+              <img className="w-90 h-20 object-contain rounded-full bg-white" src="/saki.jpg" alt="Saki" />
+              <span className='block text-md text-orange-500 font-bold text-center'>さき</span>
+              </div>
+              <div className='bg-white p-6 text-red-300 text-lg mt-5 rounded-2xl'>
+              <p> 明るさと優しさで、自然と元気をもらえる存在。現役看護学生として忙しい日々を送りながらも、いつも前向きで、誰にでも寄り添えるあたたかい人柄が魅力のライバーです。
+              <br></br>
+              <br></br>
+                リアクションも豊かで会話も楽しく、相談にも親身に向き合ってくれる、安心感のある配信が人気です。</p>
+              </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750" className='flex flex-row mt-5'>
+              <div className='flex flex-col items-center justify-center mr-4'>
+              <img className="w-75 h-20 object-top rounded-full" src="/aoki.jpg" alt="Aoki" />
+              <span className='block text-md text-orange-500 font-bold text-center'>あおきたかはし</span>
+              </div>
+              <div className='bg-white p-6 text-red-300 text-lg mt-5 rounded-2xl'>
+              <p> 気づけば、また会いたくなる存在。少し不思議で、でもとても優しくて。その人柄に惹かれ、多くのファンが集まるライバーです。
+                <br></br>
+              <br></br>
+                配信はいつも温かく、自然と笑顔になれる空間になっています。</p>
+              </div>
+            </div>
+          </div>
+      </section>
+
       {/* 収入 */}
       <section className='py-20 px-6 bg-white overflow-hidden'>
         <h1 data-aos="fade-up" data-aos-duration="1000" className='text-5xl text-black font-bold text-center pb-2'>収入イメージ</h1>
@@ -132,16 +176,14 @@ export default function Home() {
       </section>
 
         {/* Call to Action */}
-      <section className="py-20 px-6 bg-gradient-to-r from-orange-500 via-yellow-500 to-red-500 text-white text-center">
+      <section className=" py-20 px-6 bg-gradient-to-r from-orange-500 via-yellow-500 to-red-500 text-white text-center">
         <div className="container mx-auto">
-          <h2 data-aos="fade-up" data-aos-duration="1000" className="text-xl font-bold mb-6">ライブ配信はもう、一部の人だけの世界ではありません。</h2>
-          <p data-aos="fade-up" data-aos-duration="1000" className="text-3xl mb-8 mx-auto font-bold">BIGO LIVE × モアプロなら</p>
-          <p data-aos="fade-up" data-aos-duration="1000" className="text-3xl mb-8  mx-auto font-bold">&quot;誰でも、ちゃんと稼げる配信者になれる&quot;</p>
-          <p data-aos="fade-up" data-aos-duration="1000" className="text-xl mb-8 mx-auto font-bold">まずは気軽にご相談ください。</p>
+          <p data-aos="fade-up" data-aos-duration="1000" className="text-xl text-black font-bold mb-6">始めてみたいかも．．．と<br></br>思った方々</p>
+          <p data-aos="fade-up" data-aos-duration="1000" className="text-4xl mb-8 mx-auto font-bold">まずは気軽に応募して<br></br>みませんか？</p>
           {/* LINE button function */}
       <div data-aos="fade-up" data-aos-duration="800" className='relative flex items-center justify-center mt-20  h-35 overflow-visible '>
       {/* Speech bubble */}
-      <div className='z-50 absolute top-3 bg-white rounded-2xl w-40 font-sans text-center object-center py-1 scale-120 text-green-500 outline-1 outline-black/20 shadow-xl'> まずは気軽に面談</div>
+      <div className='z-50 absolute top-3 bg-white rounded-2xl w-40 font-sans text-center object-center py-1 scale-120 text-green-500 outline-1 outline-black/20 shadow-xl'> 簡単30秒で完了！</div>
        {/* Speech bubble arrow */}
       <div className='z-50  absolute border-l-[12px] border-r-[12px] border-b-[12px] border-t-[12px] border-l-transparent border-b-transparent border-r-transparent border-t-white -mt-7'> </div>
       {/* LINE button start*/}
@@ -157,7 +199,7 @@ export default function Home() {
 
       {/* この人にピッタリ */}
       <section className='bg-white py-20 px-6 overflow-hidden -mt-20'>
-        <p data-aos="fade-up" data-aos-duration="1000" className='text-3xl text-black text-center font-bold'> モアプロはこんな人にピッタリ！</p>
+        <p data-aos="fade-up" data-aos-duration="1000" className='text-3xl text-black text-center font-bold'> モアプロはこんな人に<br></br>ピッタリ！</p>
         <div className='flex mx-auto justify-center items-center shadow-md rounded-xl bg-gray-300/20 p-4 mt-10 mb-10'>
           <div className='flex justify-center items-center text-2xl'>
             <ul className='text-black text-center　'>
@@ -174,7 +216,7 @@ export default function Home() {
               </li>
               <br></br>
               <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" className="before:content-['✔'] before:p-2 before:text-green-500">
-                TikTokやインスタライブがうまくいかなかった
+                TikTokやインスタライブが<br></br>うまくいかなかった
               </li>
             </ul>
           </div>
@@ -183,69 +225,26 @@ export default function Home() {
 
       {/* 応募 */}
       <section className='bg-white py-20 px-6 overflow-hidden -mt-20'>
+        <p data-aos="fade-up" data-aos-duration="1000" className='text-sm text-black tracking-wider font-bold text-center pb-2'>FLOW</p>
         <h1 data-aos="fade-up" data-aos-duration="1000" className='text-3xl text-black text-center font-bold mx-auto'>応募からデビューまで</h1>
-        <h1 data-aos="fade-up" data-aos-duration="1000" className='text-3xl text-black text-center font-bold mx-auto p-4 mt-4'>たった3ステップ </h1>
-        <div className='flex flex-col mx-auto justify-center items-center mt-10'>
-          <div className='flex flex-col justify-center items-center'>
-          <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="250" className='flex flex-col justify-center items-center text-8xl mx-auto object-cover bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-full w-50 h-50 text-center'>
-          1
+        <h1 data-aos="fade-up" data-aos-duration="1000" className='text-3xl text-black text-center font-bold mx-auto p-2'>たった3ステップ </h1>
+        <div className='flex flex-col mx-auto justify-center mt-10'>
+          <div className='flex flex-row justify-start items-center gap-4 ml-4'>
+          <p data-aos="fade-up" data-aos-duration="1000" className='text-xl text-center text-black tracking-widest font-black pb-2'>STEP<br></br>01</p>
+          <p data-aos="fade-right" data-aos-duration="1000" className='text-xl text-black/50 font-bold'>無料応募</p>
           </div>
-          <h1 data-aos="fade-right" data-aos-duration="1000" className='text-2xl text-black text-center font-bold mx-auto p-10'>無料応募</h1>
+          <p className='px-8 ml-14 text-md text-black font-bold mb-16'>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          <div className='flex flex-row justify-start items-center gap-4 ml-4'>
+          <p data-aos="fade-up" data-aos-duration="1000" className='text-xl text-center text-black tracking-widest font-black pb-2'>STEP<br></br>02</p>
+          <p data-aos="fade-right" data-aos-duration="1000" className='text-xl text-black/50 font-bold'>オンライン面談</p>
           </div>
-          <div className='flex flex-col mx-auto justify-center items-center  '>
-          <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" className='flex flex-col justify-center items-center text-8xl mx-auto object-cover bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-full w-50 h-50 text-center'>
-          2
+          <p className='px-8 ml-14 text-md text-black font-bold mb-16'>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          <div className='flex flex-row justify-start items-center gap-4 ml-4'>
+          <p data-aos="fade-up" data-aos-duration="1000" className='text-xl text-center text-black tracking-widest font-black pb-2'>STEP<br></br>03</p>
+          <p data-aos="fade-right" data-aos-duration="1000" className='text-xl text-black/50 font-bold'>配信スタート</p>
           </div>
-          <h1 data-aos="fade-right" data-aos-duration="1000" className='text-2xl text-black text-center font-bold mx-auto p-10'>オンライン面談</h1>
-          </div>
-          <div className='flex flex-col justify-center items-center'>
-          <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="750" className='flex flex-col justify-center items-center text-8xl mx-auto object-cover bg-gradient-to-br from-orange-400 via-orange-600 to-orange-400 rounded-full w-50 h-50 text-center'>
-          3
-          </div>
-          <h1 data-aos="fade-right" data-aos-duration="1000" className='text-2xl text-black text-center font-bold mx-auto p-10'>配信スタート</h1>
-          </div>
+          <p className='px-8 ml-14 text-md text-black font-bold mb-16'>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
         </div>
-       <h1 data-aos="fade-up" data-aos-duration="1000" className='text-2xl text-orange-500 text-center font-bold mx-auto p-10'>最短で、応募当日から開始も可能</h1>
-      </section>
-
-
-      {/* 所属ライバー */}
-      <section className="py-20 px-6 bg-gradient-to-bl from-pink-200 via-orange-100 to-yellow-100 overflow-hidden">
-        <h2 className='relative text-5xl text-orange-500 font-bold text-center mb-10 '>
-                所属ライバー
-                </h2>
-        <div className='grid justify-items-center gap-10 '>
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250" className='mt-5'>
-              <img className="w-90 h-90 mx-auto object-cover rounded-full" src="/nao.jpg" alt="Nao" />
-              <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>Nao</span>
-              <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
-              <p> 思わず見惚れる、圧倒的な可愛さ。ディズニーや旅行、野球まで幅広い趣味を持ち、どんな話題でも楽しめる話題豊富なライバーです。
-                <br></br>
-                <br></br>
-                とびきりの笑顔と明るい人柄で、配信はいつも楽しく、あっという間に時間が過ぎていきます。</p>
-              </div>
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" className='mt-5'>
-              <img className="w-90 h-90 mx-auto object-cover rounded-full" src="/saki.jpg" alt="Saki" />
-              <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>さき</span>
-              <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl mx-auto text-red-300 text-xl mt-5'>
-              <p> 明るさと優しさで、自然と元気をもらえる存在。現役看護学生として忙しい日々を送りながらも、いつも前向きで、誰にでも寄り添えるあたたかい人柄が魅力のライバーです。
-              <br></br>
-              <br></br>
-                リアクションも豊かで会話も楽しく、相談にも親身に向き合ってくれる、安心感のある配信が人気です。</p>
-              </div>
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750" className='mt-5'>
-              <img className="w-90 h-90 mx-auto object-cover rounded-full" src="/aoki.jpg" alt="Aoki" />
-              <span className='block mt-5 text-4xl text-orange-500 font-bold text-center'>あおきたかはし</span>
-              <div className='bg-white shadow-lg rounded-2xl p-6 max-w-xl text-red-300 text-xl mt-5'>
-              <p> 気づけば、また会いたくなる存在。少し不思議で、でもとても優しくて。その人柄に惹かれ、多くのファンが集まるライバーです。
-                <br></br>
-              <br></br>
-                配信はいつも温かく、自然と笑顔になれる空間になっています。</p>
-              </div>
-            </div>
-          </div>
       </section>
 
       {/* Q&A */}
@@ -261,13 +260,13 @@ export default function Home() {
                 <summary className="font-semibold cursor-pointer">本当に未経験でも大丈夫？</summary>
                 <p className="mt-4 text-gray-600">はい。ほとんどの方が未経験からのスタートです。</p>
               </details>
-              <details data-aos="fade-right" data-aos-delay="200"  className="bg-gray-50 rounded-lg p-6 shadow-sm">
+              <details data-aos="fade-right" data-aos-delay="200"  className="bg-gray-50 rounded-lg p-6 shadow-sm ">
                 <summary className="font-semibold cursor-pointer">顔出しは必要？</summary>
                 <p className="mt-4 text-gray-600">必要ではありません。あなたに合った形を提案します。</p>
               </details>
               <details data-aos="fade-right" data-aos-delay="300"  className="bg-gray-50 rounded-lg p-6 shadow-sm">
                 <summary className="font-semibold cursor-pointer">費用はかかりますか？</summary>
-                <p className="mt-4 text-gray-600">登録・サポートはすべて無料です。</p>
+                <p className="mt-4 text-gray-600">所属に当たっての費用は一切発生しません。</p>
               </details>
               <details data-aos="fade-right" data-aos-delay="400" className="bg-gray-50 rounded-lg p-6 shadow-sm">
                 <summary className="font-semibold cursor-pointer">配信時間の決まりは？</summary>
@@ -275,7 +274,7 @@ export default function Home() {
               </details>
               <details data-aos="fade-right" data-aos-delay="500" className="bg-gray-50 rounded-lg p-6 shadow-sm">
                 <summary className="font-semibold cursor-pointer">他の仕事との掛け持ちはできますか？</summary>
-                <p className="mt-4 text-gray-600">可能です。学業や本業と両立しながら活動されている方も多数いらっしゃいます。あなたのライフスタイルに合わせた活動をサポートします。</p>
+                <p className="mt-4 text-gray-600">可能です。ただし副業禁止規定などが心配な方は、あらかじめ現在のお勤め先に相談されることをお勧めします。また、芸能事務所に所属されている方は、所属事務所の許可をいただいてからご応募ください。</p>
               </details>
           </div>
         </div>
