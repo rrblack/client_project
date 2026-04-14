@@ -28,6 +28,23 @@ body {
   font-family: var(--font-zen-kaku), Arial, Helvetica, sans-serif;
 }
 
+.circle-pattern {
+  background-image:
+    radial-gradient(circle, #f3f0ed 5px, transparent 5px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+.striped-background {
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    #f3f0ed 10px,
+    #f3f0ed 11px
+  );
+}
+
 @keyframes text-scroll {
   from {transform: translateX(-50%);}
   to {transform: translateX(0%);}
@@ -35,7 +52,7 @@ body {
 .scrolling {
 display: flex;
 width: max-content;
-animation: text-scroll 12s linear infinite;
+animation: text-scroll 18s linear infinite;
 white-space: nowrap;
 }
 
