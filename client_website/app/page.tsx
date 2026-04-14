@@ -253,27 +253,27 @@ export default function Home() {
           <h2 className="text-4xl text-black font-bold text-center mb-12">Q&A</h2>
           <div className="space-y-4 text-black">
               <details data-aos="fade-right" data-aos-delay="100" className="bg-gray-50 rounded-lg p-6 shadow-sm">
-                <summary className="font-semibold cursor-pointer">ライバーって何をするんですか？</summary>
+                <summary className="font-semibold cursor-pointer list-disc">ライバーって何をするんですか？</summary>
                 <p className="mt-4 text-gray-600">ライブ配信アプリで生配信を行います。自分の趣味や今日のできごとなど、簡単な雑談からスタートできます。特別なスキルは必要ありません。</p>
               </details>
               <details data-aos="fade-right" data-aos-delay="150" className="bg-gray-50 rounded-lg p-6 shadow-sm">
-                <summary className="font-semibold cursor-pointer">本当に未経験でも大丈夫？</summary>
+                <summary className="font-semibold cursor-pointer list-disc">本当に未経験でも大丈夫？</summary>
                 <p className="mt-4 text-gray-600">はい。ほとんどの方が未経験からのスタートです。</p>
               </details>
               <details data-aos="fade-right" data-aos-delay="200"  className="bg-gray-50 rounded-lg p-6 shadow-sm ">
-                <summary className="font-semibold cursor-pointer">顔出しは必要？</summary>
+                <summary className="font-semibold cursor-pointer list-disc">顔出しは必要？</summary>
                 <p className="mt-4 text-gray-600">必要ではありません。あなたに合った形を提案します。</p>
               </details>
               <details data-aos="fade-right" data-aos-delay="300"  className="bg-gray-50 rounded-lg p-6 shadow-sm">
-                <summary className="font-semibold cursor-pointer">費用はかかりますか？</summary>
+                <summary className="font-semibold cursor-pointer list-disc">費用はかかりますか？</summary>
                 <p className="mt-4 text-gray-600">所属に当たっての費用は一切発生しません。</p>
               </details>
               <details data-aos="fade-right" data-aos-delay="400" className="bg-gray-50 rounded-lg p-6 shadow-sm">
-                <summary className="font-semibold cursor-pointer">配信時間の決まりは？</summary>
+                <summary className="font-semibold cursor-pointer list-disc">配信時間の決まりは？</summary>
                 <p className="mt-4 text-gray-600">無理のない範囲で相談しながら決められます。</p>
               </details>
               <details data-aos="fade-right" data-aos-delay="500" className="bg-gray-50 rounded-lg p-6 shadow-sm">
-                <summary className="font-semibold cursor-pointer">他の仕事との掛け持ちはできますか？</summary>
+                <summary className="font-semibold cursor-pointer list-disc">他の仕事との掛け持ちはできますか？</summary>
                 <p className="mt-4 text-gray-600">可能です。ただし副業禁止規定などが心配な方は、あらかじめ現在のお勤め先に相談されることをお勧めします。また、芸能事務所に所属されている方は、所属事務所の許可をいただいてからご応募ください。</p>
               </details>
           </div>
