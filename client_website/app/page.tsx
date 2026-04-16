@@ -55,8 +55,8 @@ export default function Home() {
         <div className='block bg-gray-400 w-full h-100  pb-4'>
         </div>
       </div>
-      <p className='text-2xl font-black text-black mt-4 pb-4'>ライブ配信だけで生活する先輩ライバーも多数在籍！正しいやり方で継続すれば安定して稼げる！</p>
-        <p className='text-lg font-bold text-black '>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテ</p>
+      <p data-aos="fade-up" data-aos-duration="1000" className='text-2xl font-black text-black mt-4 pb-4'>ライブ配信だけで生活する先輩ライバーも多数在籍！正しいやり方で継続すれば安定して稼げる！</p>
+      <p data-aos="fade-up" data-aos-duration="1000" className='text-lg font-bold text-black '>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテ</p>
       </section>
 
       {/* About */}
@@ -107,7 +107,7 @@ export default function Home() {
       {/* 所属ライバー */}
       <section className="py-20 px-6 bg-gradient-to-bl from-pink-200 via-orange-100 to-yellow-100 overflow-hidden">
         <p data-aos="fade-up" data-aos-duration="1000" className='text-sm text-black tracking-wider font-bold text-center pb-2'>VOICE</p>
-        <p className='relative text-3xl text-orange-500 font-bold text-center mb-4 '>所属ライバーの声</p>
+        <p data-aos="fade-up" data-aos-duration="1000" className='relative text-3xl text-orange-500 font-bold text-center mb-4 '>所属ライバーの声</p>
         <div className='flex flex-col justify-items-center  '>
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250" className='flex flex-row mt-5'>
               <div className='flex flex-col items-center justify-center mr-4'>
@@ -148,7 +148,7 @@ export default function Home() {
           </div>
       </section>
 
-      {/* 収入 */}
+      {/* 収入
       <section className='py-20 px-6 bg-white overflow-hidden'>
         <h1 data-aos="fade-up" data-aos-duration="1000" className='text-5xl text-black font-bold text-center pb-2'>収入イメージ</h1>
         <h2 data-aos="fade-up" data-aos-duration="1000" className='text-2xl text-black font-bold text-center p-8'> BIGO LIVEなら―― </h2>
@@ -173,15 +173,17 @@ export default function Home() {
           </div>
         </div>
         <p data-aos="fade-up" data-aos-duration="1000" className='text-2xl text-black text-center p-5 w-full justify-self-center'> まずは「時給収入」から無理なくステップアップできます。</p>
-      </section>
+      </section> */}
 
         {/* Call to Action */}
-      <section className=" py-20 px-6 bg-gradient-to-r from-orange-500 via-yellow-500 to-red-500 text-white text-center">
-        <div className="container mx-auto">
-          <p data-aos="fade-up" data-aos-duration="1000" className="text-xl text-black font-bold mb-6">始めてみたいかも．．．と<br></br>思った方々</p>
+      <section className=" py-14 px-6 bg-gradient-to-r from-orange-500 via-yellow-500 to-red-500 text-white text-center">
+        <div className="relative container mx-auto">
+          <span data-aos="fade-up" data-aos-duration="1000" className='absolute bg-black w-0.5 h-10 left-0 rotate-160 ml-12'></span>
+          <span data-aos="fade-up" data-aos-duration="1000" className='absolute bg-black w-0.5 h-10 right-0 -rotate-160 mr-12'></span>
+          <p data-aos="fade-up" data-aos-duration="1000" className="text-xl text-black font-bold mb-6">始めてみたいかも．．．と<br></br>思った方は</p>
           <p data-aos="fade-up" data-aos-duration="1000" className="text-4xl mb-8 mx-auto font-bold">まずは気軽に応募して<br></br>みませんか？</p>
           {/* LINE button function */}
-      <div data-aos="fade-up" data-aos-duration="800" className='relative flex items-center justify-center mt-20  h-35 overflow-visible '>
+      <div data-aos="fade-up" data-aos-duration="800" className='relative flex items-center justify-center mt-4  mb-8 h-35 overflow-visible '>
       {/* Speech bubble */}
       <div className='z-50 absolute top-3 bg-white rounded-2xl w-40 font-sans text-center object-center py-1 scale-120 text-green-500 outline-1 outline-black/20 shadow-xl'> 簡単30秒で完了！</div>
        {/* Speech bubble arrow */}
@@ -233,24 +235,24 @@ export default function Home() {
           <p data-aos="fade-up" data-aos-duration="1000" className='text-xl text-center text-black tracking-widest font-black pb-2'>STEP<br></br>01</p>
           <p data-aos="fade-right" data-aos-duration="1000" className='text-xl text-black/50 font-bold'>無料応募</p>
           </div>
-          <p className='px-8 ml-14 text-md text-black font-bold mb-16'>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          <p data-aos="fade-up" data-aos-duration="1000" className='px-8 ml-14 text-md text-black font-bold mb-16'>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
           <div className='flex flex-row justify-start items-center gap-4 ml-4'>
           <p data-aos="fade-up" data-aos-duration="1000" className='text-xl text-center text-black tracking-widest font-black pb-2'>STEP<br></br>02</p>
           <p data-aos="fade-right" data-aos-duration="1000" className='text-xl text-black/50 font-bold'>オンライン面談</p>
           </div>
-          <p className='px-8 ml-14 text-md text-black font-bold mb-16'>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          <p data-aos="fade-up" data-aos-duration="1000" className='px-8 ml-14 text-md text-black font-bold mb-16'>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
           <div className='flex flex-row justify-start items-center gap-4 ml-4'>
           <p data-aos="fade-up" data-aos-duration="1000" className='text-xl text-center text-black tracking-widest font-black pb-2'>STEP<br></br>03</p>
           <p data-aos="fade-right" data-aos-duration="1000" className='text-xl text-black/50 font-bold'>配信スタート</p>
           </div>
-          <p className='px-8 ml-14 text-md text-black font-bold mb-16'>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          <p data-aos="fade-up" data-aos-duration="1000" className='px-8 ml-14 text-md text-black font-bold mb-16'>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
         </div>
       </section>
 
       {/* Q&A */}
       <section className="py-20 px-6 bg-white overflow-hidden">
         <div className="container mx-auto max-w-3xl">
-          <h2 className="text-4xl text-black font-bold text-center mb-12">Q&A</h2>
+          <h2 data-aos="fade-up" data-aos-duration="1000" className="text-4xl text-black font-bold text-center mb-12">Q&A</h2>
           <div className="space-y-4 text-black">
               <details data-aos="fade-right" data-aos-delay="100" className="bg-gray-50 rounded-lg p-6 shadow-sm">
                 <summary className="font-semibold cursor-pointer list-disc">ライバーって何をするんですか？</summary>
@@ -280,6 +282,30 @@ export default function Home() {
         </div>
       </section>
 
+
+        {/* Call to Action */}
+      <section className=" py-14 px-6 bg-gradient-to-r from-orange-500 via-yellow-500 to-red-500 text-white text-center">
+        <div className="relative container mx-auto">
+          <span data-aos="fade-up" data-aos-duration="1000" className='absolute bg-black w-0.5 h-10 left-0 rotate-160 ml-12'></span>
+          <span data-aos="fade-up" data-aos-duration="1000" className='absolute bg-black w-0.5 h-10 right-0 -rotate-160 mr-12'></span>
+          <p data-aos="fade-up" data-aos-duration="1000" className="text-xl text-black font-bold mb-6">始めてみたいかも．．．と<br></br>思った方は</p>
+          <p data-aos="fade-up" data-aos-duration="1000" className="text-4xl mb-8 mx-auto font-bold">まずは気軽に応募して<br></br>みませんか？</p>
+          {/* LINE button function */}
+      <div data-aos="fade-up" data-aos-duration="800" className='relative flex items-center justify-center mt-4  mb-8 h-35 overflow-visible '>
+      {/* Speech bubble */}
+      <div className='z-50 absolute top-3 bg-white rounded-2xl w-40 font-sans text-center object-center py-1 scale-120 text-green-500 outline-1 outline-black/20 shadow-xl'> 簡単30秒で完了！</div>
+       {/* Speech bubble arrow */}
+      <div className='z-50  absolute border-l-[12px] border-r-[12px] border-b-[12px] border-t-[12px] border-l-transparent border-b-transparent border-r-transparent border-t-white -mt-7'> </div>
+      {/* LINE button start*/}
+      <button className='flex items-center justify-center gap-2 bg-gradient-to-r from-[#008234] to-[#5DD68D] rounded-4xl w-65 h-13 font-sans cursor-pointer text-xl text-white font-bold scale-120'> <img width="36" height="36" src="https://img.icons8.com/color/50/line-me.png" alt="line-me"/>  LINEで応募する <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6">
+   <  path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+      </svg>
+    </button>
+    {/* LINE button end*/}
+      </div>
+      {/*LINE button function end */}
+        </div>
+      </section>
       
     </div>
   )
