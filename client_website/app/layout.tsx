@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 const zenKaku = Zen_Kaku_Gothic_New({
   variable: "--font-zen-kaku",
   subsets: ["latin"],
-  weight: "900"
+  weight: ["400", "500", "700", "900"]
 });
 
 export const metadata: Metadata = {
@@ -50,7 +50,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`bg-gray-900 min-h-screen flex flex-col overflow-x-hidden ${geistSans.variable} ${geistMono.variable} ${zenKaku.variable} antialiased`}
+        className={`striped-background min-h-screen flex flex-col overflow-x-hidden ${geistSans.variable} ${geistMono.variable} ${zenKaku.variable} antialiased`}
       >
         <div className="object-center max-w-md mx-auto">
         <noscript>
@@ -62,7 +62,7 @@ export default function RootLayout({
           />
         </noscript>
       
-        <header className="fixed backdrop-blur z-99 shadow-sm w-md">
+        <header className="fixed backdrop-blur bg-white/70 z-99 shadow-sm md:w-md w-full">
         <nav className="mx-auto p-8 flex items-center justify-center gap-8 ">
           <Link href="/" className="absolute left-0 h-20">
           <img src="/final_logo.png" className="h-20 w-40 rounded-lg object-contain"/>
